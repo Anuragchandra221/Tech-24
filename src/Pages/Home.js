@@ -16,7 +16,7 @@ function Home() {
             <p>Feb 29 - Mar 1</p>
             <a href='#about'><button className='explore_btn'>Explore</button></a>
         </div>
-        <div className='mission-vission d-flex justify-content-center pb-5'>
+        <div className='mission-vission d-flex align-items-center justify-content-center pb-5'>
             <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2'>
                 <h3 className='text-center'>OUR VISSION</h3>
                 <p className='mx-auto text-center m-0 para-vission'>Progress Through Education.</p>
