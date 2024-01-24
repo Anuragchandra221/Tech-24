@@ -17,9 +17,9 @@ function Contact() {
             </div>
             <div className='d-flex flex-column mt-3 mt-lg-0'>
                 <h3 className='mb-3'>Useful Links</h3>
-                <a href='' className='mb-2'>Home</a>
-                <a href='' className='mb-2'>About Us</a>
-                <a href='' className=''>Vidya Gallery</a>
+                <a href='https://www.vidyaacademy.ac.in/' className='mb-2'>Home</a>
+                <a href='https://www.vidyaacademy.ac.in/' className='mb-2'>About Us</a>
+                <a href='https://www.vidyaacademy.ac.in/photo_album.php' className=''>Vidya Gallery</a>
             </div>
             <div className='d-flex flex-column mt-3 mt-lg-0'>
                 <h3 className='mb-3'>Contact Us</h3>
@@ -34,10 +34,10 @@ function Contact() {
             <div className='d-flex flex-column mt-3 mt-lg-0'>
                 <h3 className='mb-3'>Social Media</h3>
                 <div className='d-flex justify-content-center'>
-                    <img src={facebook} className='icon mr-2' />
-                    <img src={instagram} className='icon mx-1' />
-                    <img src={google} className='icon mx-2' />
-                    <img src={linkedin} className='icon ml-1' />
+                    <a href='https://www.facebook.com/vidyatcr/' target='_blank'><img src={facebook} className='icon mr-3' /></a>
+                    <a href='https://www.instagram.com/vidmediavast/' target='_blank'><img src={instagram} className='icon mr-3' /></a>
+                    <a href='https://www.vidyaacademy.ac.in/' target='_blank'><img src={google} className='icon mr-3' /></a>
+                    <a href='https://www.linkedin.com/school/vidyatcr/' target='_blank'><img src={linkedin} className='icon' /></a>
                 </div>
             </div>
         </div>

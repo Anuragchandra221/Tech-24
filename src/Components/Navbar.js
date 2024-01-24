@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 
 function Navbar() {
+    const [active, setActive] = useState('home')
   return (
     <nav class="navbar navbar-expand-lg fixed-top py-4 navbar-light bg-light">
         <a class="navbar-brand" href="#">VYVIDH 24</a>
@@ -10,29 +11,29 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item mx-3 active">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                <li class={`nav-item mx-3 ${active=="home"?'active':''}`}>
+                    <a class="nav-link" href="#" onClick={()=>setActive('home')}>HOME <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">MAIN EVENTS</a>
+                <li class={`nav-item mx-3 ${active=="main_events"?'active':''}`}>
+                    <a class="nav-link" href="#" onClick={()=>setActive('main_events')}>MAIN EVENTS</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#about">ABOUT US</a>
+                <li class={`nav-item mx-3 ${active=="about"?'active':''}`}>
+                    <a class="nav-link" href="#about" onClick={()=>setActive('about')}>ABOUT US</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#department_events">DEPARTMENT EVENTS</a>
+                <li class={`nav-item mx-3 ${active=="department_events"?'active':''}`}>
+                    <a class="nav-link" href="#department_events" onClick={()=>setActive('department_events')}>DEPARTMENT EVENTS</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">GALLERY</a>
+                <li class={`nav-item mx-3 ${active=="gallery"?'active':''}`}>
+                    <a class="nav-link" href="#" onClick={()=>setActive('gallery')}>GALLERY</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">D ADDICTION</a>
+                <li class={`nav-item mx-3 ${active=="d_addiction"?'active':''}`}>
+                    <a class="nav-link" href="#" onClick={()=>setActive('d_addiction')}>D ADDICTION</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">COLLECTOR MESSAGE</a>
+                <li class={`nav-item mx-3 ${active=="collector"?'active':''}`}>
+                    <a class="nav-link" href="#" onClick={()=>setActive('collector')}>COLLECTOR MESSAGE</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#contact">CONTACT</a>
+                <li class={`nav-item mx-3 ${active=="contact"?'active':''}`}>
+                    <a class="nav-link" href="#contact" onClick={()=>setActive('contact')}>CONTACT</a>
                 </li>
             </ul>
         </div>
