@@ -1,0 +1,43 @@
+.logo{
+    width: 90%;
+    height: auto;
+}
+.vission-box{
+    width: 90%;
+    min-height: 250px;
+}
+.para-vission{
+    max-width: 150px;
+    line-height: 2em;
+}
+.mission-vission{
+    flex-direction: column;
+}
+.front-page{
+    height: 100vh;
+}
+.explore_btn{
+    width: 12em;
+    border-radius: 15%;
+    height: 3em;
+    border: none;
+    cursor: pointer;
+}
+.explore_btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media screen and (min-width: 768px){
+    .logo{
+        width: 30%;
+        height: auto;
+    }
+    .vission-box{
+        width: 25%;
+        min-width: 300px;
+        border: 2px solid black;
+    }
+    .mission-vission{
+        flex-direction: row;
+    }
+}
