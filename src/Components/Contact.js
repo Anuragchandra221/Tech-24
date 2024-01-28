@@ -41,7 +41,7 @@ function Contact() {
                 </div>
             </div>
         </div>
-        <div className='text-center mb-2 mt-4'>
+        <div className='text-center mb-2 mt-4' style={{color: 'var(--secondary'}}>
             &copy; Copyright Vyvidh24. All rights reserved.
         </div>
     </div>
