@@ -2,6 +2,8 @@ import React from 'react'
 import vastava from "../assets/images/VASTATVA 2024.jpg"
 import elecspire from "../assets/images/ELECSPIRE logo.jpg"
 import respawn from "../assets/images/respawn.jpg"
+import adwaitha from "../assets/images/ADWAYTHA-1.png"
+import haulin from "../assets/images/haulin.png"
 import "./DepartmentEvents.css"
 import D_Event from './D_Event'
 
@@ -21,8 +23,9 @@ function DepartmentEvents() {
         <div className='d-flex justify-content-center mt-4 p-0 flex-wrap mt-4'>
           <D_Event src={vastava} dep="CIVIL ENGINEERING" />
           <D_Event src={respawn} dep="COMPUTER SCIENCE AND ENGINEERING" />
-          <D_Event src={elecspire} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
-          <D_Event src={elecspire} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
+          <D_Event src={haulin} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
+          <D_Event src={elecspire} dep="ELECTRICAL AND ELECTRONICS ENGINEERING" />
+          <D_Event src={adwaitha} dep="MASTER OF COMPUTER APPLICATION" />
         </div>
     </div>
   )
