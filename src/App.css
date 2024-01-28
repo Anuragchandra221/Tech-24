@@ -2,11 +2,21 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  /* background-color: #000; */
+  background-color: #1c1c1c;
   overflow-x: hidden;
   padding: 0;
+ 
+}
+:root {
+  --primary: #910A67;
+  --secondary: aliceblue;
+  --background: #1c1c1c;
 }
 @font-face {
   font-family: astera;
   src: url(./assets/fonts/ASTERA\ v2.ttf);
+}
+@font-face {
+  font-family: syne;
+  src: url(./assets//fonts//Syne-ExtraBold.ttf);
 }

@@ -29,11 +29,11 @@ function MainEvents() {
   }
   return (
     <div className='d-flex flex-column' id="main_events" >
-      <h3 className='text-center mb-3'>Main Events</h3>
-      <div className='d-flex justify-content-center justify-content-lg-around p-0 p-lg-3 flex-wrap'>
-        <img onClick={()=>show_events(shutter_des)} className='main_images my-3 my-lg-3' src={shutter} />
-        <img className='main_images my-3 my-lg-3' src={expremiere} />
-        <img className='main_images my-3 my-lg-3' src={shutter} />
+      <h2 className='text-center mb-3'>Main Events</h2>
+      <div className='d-flex  justify-content-center p-0 p-lg-3 flex-wrap'>
+        <img onClick={()=>show_events(shutter_des)} className='main_images my-3 mx-sm-3 my-lg-3 mr-0 mr-lg-2' src={shutter} />
+        <img className='main_images my-3 my-lg-3 mx-0 mx-sm-3  mx-lg-5' src={expremiere} />
+        <img className='main_images my-3 my-lg-3 mx-sm-2 ml-0 ml-lg-2' src={shutter} />
       </div>
       {visible && obj?<Event_page date={obj.date} title={obj.title} src={obj.src} description={obj.desc} onClose={onClose}/>:""}
     </div>

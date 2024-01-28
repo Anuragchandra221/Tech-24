@@ -1,3 +1,32 @@
 .nav-item{
     font-size: medium;
 }
+a:hover{
+    color: var(--primary);
+}
+#navbar{
+    background-color: var(--background);
+}
+#nlink{
+    color: var(--secondary);
+    font-weight: 600;
+}
+#nlink:hover{
+    color: var(--primary);
+    /* transform: scale(1.1); */
+    border-bottom: 2px solid var(--primary);
+    transition: 1s;
+    /* animation: border 1s linear forwards; */
+}
+.active{
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+#navbar-brand{
+    font-weight: 800;
+    color: var(--primary);
+    font-size: x-large;
+}
+@keyframes border {
+    
+}

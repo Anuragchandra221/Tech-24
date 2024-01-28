@@ -1,6 +1,11 @@
 .about-text{
     max-width: 90%;
     line-height: 2em;
+    color: var(--secondary);
+}
+h3, h2{
+    font-family: 'Space Mono', monospace;
+    font-weight: 900;
 }
 @media screen and (min-width:768px) {
  .about-text{

@@ -5,14 +5,27 @@
 .vission-box{
     width: 90%;
     min-height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(201, 16, 146, 0.2), 0 6px 20px 0 rgba(163, 38, 141, 0.19);
+}
+h1{
+    color: var(--secondary);
+    font-weight: 800;
+}
+.diff_color{
+    color: var(--primary);
 }
 h4{
-    /* color: #02d7f2;
-    font-family: astera; */
+    /* color: #02d7f2; */
+    /* font-family: syne;  */
+    font-family: 'Space Mono', monospace;
+    color: aliceblue;
 }
 .para-vission{
     max-width: 150px;
     line-height: 2em;
+    color: var(--secondary);
+    /* font-family: 'Space Mono', monospace; */
 }
 .mission-vission{
     flex-direction: column;
@@ -22,14 +35,22 @@ h4{
 }
 .explore_btn{
     width: 12em;
-    border-radius: 15%;
+    border-radius: 15px;
     height: 3em;
     border: none;
+    background-color: var(--primary);
+    color: var(--secondary);
     cursor: pointer;
+}
+h3, h2{
+    color: var(--primary);
+    font-weight: 900;
 }
 .explore_btn:hover{
     transform: scale(1.1);
     transition: 1s;
+    background-color: var(--secondary);
+    color: var(--primary);
 }
 @media screen and (min-width: 768px){
     .logo{
@@ -39,9 +60,14 @@ h4{
     .vission-box{
         width: 25%;
         min-width: 300px;
-        border: 2px solid black;
+        /* border: 2px solid var(--primary); */
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(201, 16, 146, 0.2), 0 6px 20px 0 rgba(163, 38, 141, 0.19);
     }
     .mission-vission{
         flex-direction: row;
+    }
+    h4{
+        font-size: large;
     }
 }

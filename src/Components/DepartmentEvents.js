@@ -6,9 +6,9 @@ import D_Event from './D_Event'
 
 function DepartmentEvents() {
   return (
-    <div id="department_events" className='pt-5 pb-5'>
-        <h4 className='text-center mb-4'>Department Events</h4>
-        <div className='d-flex justify-content-around flex-wrap px-0 px-lg-4' style={{rowGap:'15px'}}>
+    <div id="department_events" className='pt-5 pb-5 mt-5'>
+        <h2 className='text-center mb-4'>Department Events</h2>
+        <div className='d-flex justify-content-around flex-wrap px-0 px-lg-4 mt-5 mb-3' style={{rowGap:'15px', color: 'var(--secondary'}}>
             <div className=''>AIML</div>
             <div className=''>CE</div>
             <div className=''>CSE</div>

@@ -1,14 +1,22 @@
 .main_images{
     width: 80%;
+    border: 2px solid var(--primary);
 }
 .main_images:hover{
     transform: scale(1.1);
     transition: 1s;
 }
+@media screen and (min-width: 576px) {
+    .main_images{
+        width: auto;
+        max-width: 300px;
+        /* border: 2px solid #000; */
+    }
+}
 @media screen and (min-width: 768px) {
     .main_images{
         width: auto;
-        max-width: 350px;
+        max-width: 300px;
         /* border: 2px solid #000; */
     }
 }

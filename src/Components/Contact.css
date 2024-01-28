@@ -7,7 +7,7 @@
 }
 a{
     text-decoration: none;
-    color: #000;
+    color: var(--secondary);
     cursor: pointer;
     outline: none;
 }
@@ -16,9 +16,12 @@ a:hover{
     outline: none;
     
 }
+p{
+    color: var(--secondary);
+}
 @media screen and (min-width:768px) {
     .contact{
         flex-direction: row;
-        width: 80%;
+        width: 95%;
     }
 }
