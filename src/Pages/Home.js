@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
 import logo from '../assets/images/vyvidh2024.png'
 import "./Home.css"
 import About from '../Components/About'
 import DepartmentEvents from '../Components/DepartmentEvents'
 import Contact from '../Components/Contact'
+import MainEvents from '../Components/MainEvents'
 
+export const BlurContext = createContext()
 function Home() {
+    const [isBlurred, setIsBlurred] = useState(false)
+    
+    
   return (
-    <div>
+    <BlurContext.Provider value={[isBlurred, setIsBlurred]}>
         <Navbar/>
         <div className='d-flex front-page flex-column justify-content-center align-items-center'>
             <img src={logo} className='logo' />
@@ -31,9 +36,10 @@ function Home() {
             </div>
         </div>
         <About/>
+        <MainEvents/>
         <DepartmentEvents/>
         <Contact/>
-    </div>
+    </BlurContext.Provider>
   )
 }
 

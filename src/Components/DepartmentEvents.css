@@ -1,0 +1,18 @@
+.department_images{
+    width: 180px;
+}
+.dep_name{
+    width: 180px;
+}
+.d_event:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media screen and (min-width: 768px) {
+    .department_images{
+        width: 300px;
+    }
+    .dep_name{
+        width: 300px;
+    }
+}

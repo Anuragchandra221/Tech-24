@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Navbar.css'
+import { BlurContext } from '../Pages/Home'
 
 function Navbar() {
     const [active, setActive] = useState('home')
+    const [isBlurred, setIsBlurred] = useContext(BlurContext)
   return (
-    <nav class="navbar navbar-expand-lg fixed-top py-4 navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top py-4 navbar-light bg-light" style={{opacity:isBlurred? "0.8":"1"}}>
         <a class="navbar-brand" href="#">VYVIDH 24</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -15,7 +17,7 @@ function Navbar() {
                     <a class="nav-link" href="#" onClick={()=>setActive('home')}>HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class={`nav-item mx-3 ${active=="main_events"?'active':''}`}>
-                    <a class="nav-link" href="#" onClick={()=>setActive('main_events')}>MAIN EVENTS</a>
+                    <a class="nav-link" href="#main_events" onClick={()=>setActive('main_events')}>MAIN EVENTS</a>
                 </li>
                 <li class={`nav-item mx-3 ${active=="about"?'active':''}`}>
                     <a class="nav-link" href="#about" onClick={()=>setActive('about')}>ABOUT US</a>

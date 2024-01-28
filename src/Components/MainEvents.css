@@ -1,0 +1,14 @@
+.main_images{
+    width: 80%;
+}
+.main_images:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media screen and (min-width: 768px) {
+    .main_images{
+        width: auto;
+        max-width: 350px;
+        /* border: 2px solid #000; */
+    }
+}

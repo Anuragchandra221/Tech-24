@@ -2,6 +2,11 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  /* background-color: #000; */
   overflow-x: hidden;
   padding: 0;
+}
+@font-face {
+  font-family: astera;
+  src: url(./assets/fonts/ASTERA\ v2.ttf);
 }

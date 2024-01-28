@@ -4,7 +4,7 @@ import "./About.css"
 function About() {
   return (
     <div id="about" className='d-flex flex-column align-items-center mt-5 mb-5'>
-        <h3 className='mb-2'>
+        <h3 className='mb-3'>
             About Vidya
         </h3>
         <p className='about-text'>
