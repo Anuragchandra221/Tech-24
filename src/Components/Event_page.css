@@ -2,8 +2,9 @@
     width: fit-content;
     background-color: var(--primary);
     color: var(--secondary);
-    border: none;
+    border: 2px solid var(--primary);
     padding: 5px;
+    cursor: pointer;
     border-radius: 10px;
 }
 .event-page-overlay {

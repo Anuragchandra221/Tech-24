@@ -1,6 +1,7 @@
 import React from 'react'
 import vastava from "../assets/images/VASTATVA 2024.jpg"
 import elecspire from "../assets/images/ELECSPIRE logo.jpg"
+import respawn from "../assets/images/respawn.jpg"
 import "./DepartmentEvents.css"
 import D_Event from './D_Event'
 
@@ -19,7 +20,7 @@ function DepartmentEvents() {
         </div>
         <div className='d-flex justify-content-center mt-4 p-0 flex-wrap mt-4'>
           <D_Event src={vastava} dep="CIVIL ENGINEERING" />
-          <D_Event src={elecspire} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
+          <D_Event src={respawn} dep="COMPUTER SCIENCE AND ENGINEERING" />
           <D_Event src={elecspire} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
           <D_Event src={elecspire} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
         </div>

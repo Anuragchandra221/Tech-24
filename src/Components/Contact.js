@@ -33,7 +33,7 @@ function Contact() {
             </div>
             <div className='d-flex flex-column mt-3 mt-lg-0'>
                 <h3 className='mb-3'>Social Media</h3>
-                <div className='d-flex justify-content-center'>
+                <div className='d-flex justify-content-start'>
                     <a href='https://www.facebook.com/vidyatcr/' target='_blank'><img src={facebook} className='icon mr-3' /></a>
                     <a href='https://www.instagram.com/vidmediavast/' target='_blank'><img src={instagram} className='icon mr-3' /></a>
                     <a href='https://www.vidyaacademy.ac.in/' target='_blank'><img src={google} className='icon mr-3' /></a>
