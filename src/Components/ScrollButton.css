@@ -1,0 +1,14 @@
+.scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.scroll > button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: larger;
+}

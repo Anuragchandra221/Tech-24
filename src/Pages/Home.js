@@ -6,6 +6,7 @@ import About from '../Components/About'
 import DepartmentEvents from '../Components/DepartmentEvents'
 import Contact from '../Components/Contact'
 import MainEvents from '../Components/MainEvents'
+import ScrollButton from '../Components/ScrollButton'
 
 export const BlurContext = createContext()
 function Home() {
@@ -39,6 +40,7 @@ function Home() {
         <MainEvents/>
         <DepartmentEvents/>
         <Contact/>
+        <ScrollButton/>
     </BlurContext.Provider>
   )
 }

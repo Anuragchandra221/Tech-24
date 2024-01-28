@@ -6,6 +6,8 @@ a:hover{
 }
 #navbar{
     background-color: var(--background);
+    position: absolute;
+    width: 100%;
 }
 #nlink{
     color: var(--secondary);
