@@ -7,7 +7,7 @@ import "./Contact.css"
 
 function Contact() {
   return (
-    <div id="contact">
+    <div id="contact" className='ml-2 ml-md-0'>
         <div className='px-2 contact mx-auto d-flex justify-content-between mx-4 align-items-start pt-5'>
             <div className='d-flex flex-column'>
                 <h3 className='mb-3'>

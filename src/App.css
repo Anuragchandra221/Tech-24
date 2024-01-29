@@ -5,13 +5,23 @@ body{
   background-color: #1c1c1c;
   overflow-x: hidden;
   padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  /* color: var(--font); */
+  /* background-image: linear-gradient(to right, rgba(28, 28, 28,0.6), rgba(145, 10, 103,0.4)); */
   /* background-image: url('./assets/images/pattern_japanese-pattern-3_0.5_1_0-0_0_1__1c1c1c_8f0a65.png'); */
  
 }
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
 :root {
   --primary: #910A67;
-  --secondary: aliceblue;
+  --primary-light: #965481;
+  --secondary: #fff;
   --background: #1c1c1c;
+  --font: #dbdbdb
 }
 @font-face {
   font-family: astera;

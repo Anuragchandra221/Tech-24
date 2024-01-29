@@ -7,6 +7,8 @@ import DepartmentEvents from '../Components/DepartmentEvents'
 import Contact from '../Components/Contact'
 import MainEvents from '../Components/MainEvents'
 import ScrollButton from '../Components/ScrollButton'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import Typewriter from "typewriter-effect";
 
 export const BlurContext = createContext()
 function Home() {
@@ -18,25 +20,38 @@ function Home() {
         <Navbar/>
         <div className='d-flex front-page flex-column justify-content-center align-items-center'>
             <img src={logo} className='logo' />
-            <h1 className='text-center mb-3'><span className='diff_color'>TECHNO</span> CULTURAL FEST</h1>
-            <h4 className="sub-text mb-2">Feb 29 - Mar 1</h4>
+            <h1 className='text-center mb-3'>
+                <span className='diff_color'>TECHNO </span> 
+                <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter
+                            .typeString("CULTURAL FEST")
+                            .start();
+                    }}
+                />
+            </h1>
+            <h4 className="sub-text mb-3">Feb 29 - Mar 1</h4>
             <a href='#about' className='sub-text'><button className='explore_btn'>Explore</button></a>
         </div>
-        <div className='mission-vission d-flex align-items-center justify-content-center pb-5 mb-5'>
-            <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
-                <h3 className='text-center'>OUR VISSION</h3>
-                <p className='mx-auto text-center m-0 para-vission'>Progress Through Education.</p>
+            <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+                
+            <div className='mission-vission d-flex align-items-center justify-content-center pb-5 mb-5'>
+                    <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
+                        <h3 className='text-center'>OUR VISSION</h3>
+                        <p className='mx-auto text-center m-0 para-vission'>Progress Through Education.</p>
+                    </div>
+                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
+                    <h3 className='text-center'>OUR MISSION</h3>
+                    <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
+                </div>
+                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
+                    <h3 className='text-center'>OUR PLAN</h3>
+                    <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
+                </div>
             </div>
-            <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
-                <h3 className='text-center'>OUR MISSION</h3>
-                <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
-            </div>
-            <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
-                <h3 className='text-center'>OUR PLAN</h3>
-                <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
-            </div>
-        </div>
+            </AnimationOnScroll>
         <About/>
+
         <MainEvents/>
         <DepartmentEvents/>
         <Contact/>

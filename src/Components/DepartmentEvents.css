@@ -3,7 +3,7 @@
 }
 .dep_name{
     width: 150px;
-    color: var(--secondary);
+    color: var(--font);
 }
 .d_event:hover{
     transform: scale(1.1);

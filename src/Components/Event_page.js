@@ -4,8 +4,8 @@ import "./Event_page.css"
 function Event_page(props) {
   return (
     <div style={{position: ''}}>
-
-    <div className='event-page-overlay'>
+      
+    <div className='event-page-overlay '>
       <div className='event-page-content row d-flex justify-content-start'>
         <img src={props.src} alt="Event" className='col-12 col-md-6 mx-auto' />
         <div className='d-flex flex-column col-12 col-md-6 justify-content-between'>

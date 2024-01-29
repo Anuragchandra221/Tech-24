@@ -1,10 +1,12 @@
 .main_images{
     width: 80%;
     border: 2px solid var(--primary);
+    border-radius: 10px;
 }
 .main_images:hover{
     transform: scale(1.1);
     transition: 1s;
+    border-radius: 0px;
 }
 @media screen and (min-width: 576px) {
     .main_images{
