@@ -1,5 +1,6 @@
 .department_images{
     width: 150px;
+    border-radius: 10px;
 }
 .dep_name{
     width: 150px;

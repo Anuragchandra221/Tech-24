@@ -17,6 +17,7 @@ function Home() {
     
   return (
     <BlurContext.Provider value={[isBlurred, setIsBlurred]}>
+        <div className='background'></div>
         <Navbar/>
         <div className='d-flex front-page flex-column justify-content-center align-items-center'>
             <img src={logo} className='logo' />
@@ -36,15 +37,15 @@ function Home() {
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                 
             <div className='mission-vission d-flex align-items-center justify-content-center pb-5 mb-5'>
-                    <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
+                    <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-3 my-3 my-lg-0'>
                         <h3 className='text-center'>OUR VISSION</h3>
                         <p className='mx-auto text-center m-0 para-vission'>Progress Through Education.</p>
                     </div>
-                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
+                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-3 my-3 my-lg-0'>
                     <h3 className='text-center'>OUR MISSION</h3>
                     <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
                 </div>
-                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-2 my-3 my-lg-0'>
+                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-3 my-3 my-lg-0'>
                     <h3 className='text-center'>OUR PLAN</h3>
                     <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
                 </div>

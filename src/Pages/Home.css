@@ -11,6 +11,24 @@
 .Typewriter{
     display: inline;
 }
+.background{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
+    /* background: url('../assets/images/840843081452.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: cover; */
+    z-index: -1;
+    /* filter: blur(10px); */
+    -moz-filter:blur(5px);
+    -o-filter:blur(5px);
+    -webkit-filter:blur(5px);
+    filter:blur(5px);
+}
 h1{
     color: var(--secondary);
     font-weight: 800;
@@ -72,6 +90,10 @@ h3, h2{
         /* border: 2px solid var(--primary); */
         border-radius: 15px;
         box-shadow: 0 4px 8px 0 rgba(201, 16, 146, 0.2), 0 6px 20px 0 rgba(163, 38, 141, 0.19);
+        
+         /* box-shadow: 0 0 5px var(--primary),
+                0 0 20px var(--primary),
+                0 0 4px var(--primary); */
     }
     .mission-vission{
         flex-direction: row;

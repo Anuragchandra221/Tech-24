@@ -5,6 +5,11 @@
     width: 100%;
     flex-direction: column;
 }
+#contact{
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(201, 16, 146, 0.2), 0 6px 20px 0 rgba(163, 38, 141, 0.19);
+    border-radius: 15px;
+}
 a{
     text-decoration: none;
     color: var(--font);
@@ -16,12 +21,25 @@ a:hover{
     outline: none;
     
 }
+/* #contact{
+    background: url('../assets/images/pattern_japanese-pattern-3_0.5_1_0-0_0_1__1c1c1c_8f0a65.png');
+} */
 p{
     color: var(--font);
+    /* filter: blur(0px); */
 }
 @media screen and (min-width:768px) {
     .contact{
         flex-direction: row;
-        width: 95%;
+        width: 100%;
+        z-index: 2;
+        background-color: var(--background);
+        
     }
+    #contact{
+        width: 95%;
+        box-shadow: 0 4px 8px 0 rgba(201, 16, 146, 0.2), 0 6px 20px 0 rgba(163, 38, 141, 0.19);
+        border-radius: 15px;
+    }
+
 }

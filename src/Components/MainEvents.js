@@ -6,6 +6,7 @@ import Event_page from './Event_page'
 import shutter_png from "../assets/images/shutter up logo no background.png"
 import { BlurContext } from '../Pages/Home'
 import expo from "../assets/images/expo.png"
+import avishkar from "../assets/images/avishkar_jpeg.jpg"
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 function MainEvents() {
@@ -39,10 +40,11 @@ function MainEvents() {
     <div className='d-flex flex-column' id="main_events" >
       <h2 className='text-center mb-3'>Main Events</h2>
 
-      <div className='d-flex  justify-content-center p-0 p-lg-3 flex-wrap'>
-        <img onClick={()=>show_events(shutter_des)} className='main_images my-3 mx-sm-3 my-lg-3 mr-0 mr-lg-2' src={shutter} />
-        <img className='main_images my-3 my-lg-3 mx-0 mx-sm-3  mx-lg-5' src={expremiere} />
-        <img onClick={()=>show_events(expo_des)} className='main_images my-3 my-lg-3 mx-sm-2 ml-0 ml-lg-2' src={expo} />
+      <div className='d-flex  justify-content-around p-0 p-lg-3 px-lg-5 flex-wrap'>
+        <img onClick={()=>show_events(shutter_des)} className='main_images my-3 my-lg-3 ' src={shutter} />
+        <img className='main_images my-3 my-lg-3 ' src={expremiere} />
+        <img onClick={()=>show_events(expo_des)} className='main_images my-3 my-lg-3 ' src={expo} />
+        <img onClick={()=>show_events(expo_des)} className='main_images my-3 my-lg-3 ' src={avishkar} />
       </div>
       {visible && obj?<Event_page date={obj.date} title={obj.title} src={obj.src} description={obj.desc} onClose={onClose}/>:""}
     </div>

@@ -7,8 +7,8 @@ import "./Contact.css"
 
 function Contact() {
   return (
-    <div id="contact" className='ml-2 ml-md-0'>
-        <div className='px-2 contact mx-auto d-flex justify-content-between mx-4 align-items-start pt-5'>
+    <div id="contact" className=' mx-auto py-4 px-3 mb-3 d-flex flex-column justify-content-between'>
+        <div className='px-3 contact mx-auto d-flex justify-content-between mx-4 align-items-start'>
             <div className='d-flex flex-column'>
                 <h3 className='mb-3'>
                     VYVIDH 24
@@ -41,7 +41,7 @@ function Contact() {
                 </div>
             </div>
         </div>
-        <div className='text-center mb-2 mt-4' style={{color: 'var(--secondary'}}>
+        <div className='text-center mt-5 mt-md-4' style={{color: 'var(--secondary'}}>
             &copy; Copyright Vyvidh24. All rights reserved.
         </div>
     </div>

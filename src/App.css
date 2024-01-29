@@ -4,7 +4,9 @@ html{
 body{
   background-color: #1c1c1c;
   overflow-x: hidden;
+  /* backdrop-filter: blur(25px); */
   padding: 0;
+  position: relative;
   font-family: 'DM Sans', sans-serif;
   /* color: var(--font); */
   /* background-image: linear-gradient(to right, rgba(28, 28, 28,0.6), rgba(145, 10, 103,0.4)); */
