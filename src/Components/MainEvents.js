@@ -8,11 +8,11 @@ import shutter_png from "../assets/images/shutter up logo no background.png"
 import expo from "../assets/images/expo.png"
 import avishkar from "../assets/images/avishkar_jpeg.jpg"
 import { AnimationOnScroll } from 'react-animation-on-scroll'
-import { BlurContext } from '../App'
+// import { BlurContext } from '../App'
 
 function MainEvents() {
   
-  const [isBlurred, setIsBlurred] = useContext(BlurContext)
+  // const [isBlurred, setIsBlurred] = useContext(BlurContext)
   const shutter_des = {
     "title": "Shutter Up",
     "src": shutter_png,
@@ -28,12 +28,12 @@ function MainEvents() {
   const [visible, setVisible] = useState(false)
   const [obj, setObj] = useState(null)
   const show_events = (obj)=>{
-    setIsBlurred(true)
+    // setIsBlurred(true)
     setVisible(true)
     setObj(obj)
   }
   const onClose = ()=>{
-    setIsBlurred(false)
+    // setIsBlurred(false)
     setVisible(false)
     setObj(null)
   }

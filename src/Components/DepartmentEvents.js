@@ -22,7 +22,7 @@ function DepartmentEvents() {
         </div>
         <div className='d-flex justify-content-center mt-4 p-0 flex-wrap mt-4'>
           <D_Event src={vastava} dep="CIVIL ENGINEERING" />
-          <D_Event src={respawn} dep="COMPUTER SCIENCE AND ENGINEERING" />
+          <D_Event src={respawn} dep="COMPUTER SCIENCE AND ENGINEERING" to="/cse" />
           <D_Event src={haulin} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
           <D_Event src={elecspire} dep="ELECTRICAL AND ELECTRONICS ENGINEERING" />
           <D_Event src={adwaitha} dep="MASTER OF COMPUTER APPLICATION" />

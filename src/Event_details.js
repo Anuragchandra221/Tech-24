@@ -126,7 +126,7 @@ const cse = {
             "student": "Ragitha G (S8)"
         },
     ],
-    "non-technical": [
+    "non": [
         {
             "title": "WAKA WAKA: FIFA Tournament",
             "desc": "Channel your inner Messi, unleash your Ronaldo rage: It's Waka Waka , the FIFA showdown where virtual boots meet glory.",

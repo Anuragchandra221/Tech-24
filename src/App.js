@@ -13,12 +13,11 @@ function App() {
   const [isBlurred, setIsBlurred] = useState(false)
   return (
     <BrowserRouter>
-      <BlurContext.Provider value={[isBlurred, setIsBlurred]}>
+  
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/cse" element={<Event data={cse}/>} />
         </Routes>
-      </BlurContext.Provider>
     </BrowserRouter>
   );
 }

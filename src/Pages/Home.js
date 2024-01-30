@@ -20,16 +20,17 @@ function Home() {
     <div>
         {/* <div className='background'></div> */}
         <div className='cube-container'>
-            <div class="cube">
-                <div class="s1"></div>
-                <div class="s2"></div>
-                <div class="s3"></div>
-                <div class="s4"></div>
-                <div class="s5"></div>
-                <div class="s6"></div>
+            <div className="cube">
+                <div className="s1"></div>
+                <div className="s2"></div>
+                <div className="s3"></div>
+                <div className="s4"></div>
+                <div className="s5"></div>
+                <div className="s6"></div>
             </div>
         </div>
         <Navbar/>
+        {/* <Navbar_custom/> */}
         <div className='d-flex front-page flex-column justify-content-center align-items-center'>
             <img src={logo} className='logo' />
             <h1 className='text-center mb-3'>

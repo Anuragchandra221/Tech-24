@@ -14,7 +14,9 @@ h4{
 }
 .hrline{
     height: 2px;
-    background-color: var(--primary);
+    box-shadow: 0 0 1px var(--primary),
+                0 0 4px var(--primary),
+                0 0 8px var(--background);
 }
 p{
     color: var(--font);
@@ -31,4 +33,5 @@ p{
     background-color: var(--background);
     padding-inline-start: 10px;
     padding-block: 5px;
+    border-radius: 10px;
 }
