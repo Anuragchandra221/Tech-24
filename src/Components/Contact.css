@@ -9,6 +9,7 @@
     width: 95%;
     box-shadow: 0 4px 8px 0 rgba(201, 16, 146, 0.2), 0 6px 20px 0 rgba(163, 38, 141, 0.19);
     border-radius: 15px;
+    background-color: var(--background);
 }
 a{
     text-decoration: none;

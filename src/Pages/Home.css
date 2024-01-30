@@ -6,8 +6,12 @@
     width: 90%;
     min-height: 250px;
     border-radius: 15px;
+    z-index: 1;
+    background-color: var(--background);
     box-shadow: 0 4px 8px 0 rgba(201, 16, 146, 0.2), 0 6px 20px 0 rgba(163, 38, 141, 0.19);
 }
+
+
 .Typewriter{
     display: inline;
 }
@@ -104,4 +108,56 @@ h3, h2{
     h1{
         font-size: 2.5em;
     }
+    .cube-container{
+        position: fixed;
+        width: fit-content;
+        bottom: 50px;
+        left: 50px;
+        z-index: -1;
+    }
+    .cube {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        transform-style: preserve-3d;
+        animation: rotate 6s linear infinite;
+      }
+      
+      .cube > div {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        opacity: 0.9;
+        background: linear-gradient(to right, var(--background), var(--primary));
+      }
+      
+      .s1 {
+        transform: translateZ(100px);
+      }
+      
+      .s2 {
+        transform: rotateY(90deg) translateZ(100px);
+      }
+      
+      .s3 {
+        transform: rotateY(180deg) translateZ(100px);
+      }
+      
+      .s4 {
+        transform: rotateX(90deg) translateZ(100px);
+      }
+      
+      .s5 {
+        transform: rotateY(-90deg) translateZ(100px);
+      }
+      
+      .s6 {
+        transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
+      }
+      
+      @keyframes rotate {
+        100% {
+          transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+        }
+      }
 }

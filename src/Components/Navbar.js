@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import './Navbar.css'
-import { BlurContext } from '../Pages/Home'
+import { BlurContext } from '../App'
 
 function Navbar() {
     const [active, setActive] = useState('home')

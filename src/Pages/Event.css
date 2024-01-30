@@ -1,0 +1,34 @@
+.event_div{
+    padding-top: 7em;
+    width: fit-content;
+    max-width: 90%;
+}
+
+h4{
+    color: var(--secondary);
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.hrdiv{
+    width: fit-content;
+}
+.hrline{
+    height: 2px;
+    background-color: var(--primary);
+}
+p{
+    color: var(--font);
+}
+.tech_events{
+    list-style: decimal;
+    color: var(--secondary);
+    font-size: 1.75rem;
+}
+.event_heading{
+    box-shadow: 0 0 1px var(--background),
+                0 0 4px var(--secondary),
+                0 0 8px var(--background);
+    background-color: var(--background);
+    padding-inline-start: 10px;
+    padding-block: 5px;
+}

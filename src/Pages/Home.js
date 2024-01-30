@@ -10,14 +10,25 @@ import ScrollButton from '../Components/ScrollButton'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Typewriter from "typewriter-effect";
 
-export const BlurContext = createContext()
+
 function Home() {
-    const [isBlurred, setIsBlurred] = useState(false)
+    
+    
     
     
   return (
-    <BlurContext.Provider value={[isBlurred, setIsBlurred]}>
-        <div className='background'></div>
+    <div>
+        {/* <div className='background'></div> */}
+        <div className='cube-container'>
+            <div class="cube">
+                <div class="s1"></div>
+                <div class="s2"></div>
+                <div class="s3"></div>
+                <div class="s4"></div>
+                <div class="s5"></div>
+                <div class="s6"></div>
+            </div>
+        </div>
         <Navbar/>
         <div className='d-flex front-page flex-column justify-content-center align-items-center'>
             <img src={logo} className='logo' />
@@ -57,7 +68,7 @@ function Home() {
         <DepartmentEvents/>
         <Contact/>
         <ScrollButton/>
-    </BlurContext.Provider>
+    </div>
   )
 }
 

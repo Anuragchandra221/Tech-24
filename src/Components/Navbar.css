@@ -5,13 +5,15 @@ a:hover{
     color: var(--primary);
 }
 #navbar{
-    /* background-color: var(--background); */
+    background-color: var(--background);
+    z-index: -1;
     position: absolute;
     width: 100%;
 }
 #nlink{
     color: var(--secondary);
     font-weight: 600;
+    cursor: pointer;
 }
 #nlink:hover{
     color: var(--primary);
@@ -50,6 +52,9 @@ a:hover{
         0 0 40px var(--primary),
         0 0 80px var(--primary);
         /* border-radius: 10px; */
+    }
+    #navbar{
+        background-color: inherit;
     }
     #navbar-brand{
         font-size: 2em;
