@@ -2,8 +2,32 @@
     padding-top: 7em;
     width: fit-content;
     max-width: 90%;
+    /* overflow: hidden; */
 }
-
+.event-div{
+    /* transition-duration: 1s; */
+    transition-property: margin;
+    transition: 1s linear; 
+    display: block;
+}
+.event-btn{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    background-color: var(--background);
+    box-shadow: 0 0 1px var(--primary),
+    0 0 4px var(--secondary),
+    0 0 8px var(--background);
+}
+.event-btn:hover{
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 1px var(--primary),
+    0 0 4px var(--primary),
+    0 0 8px var(--background);
+    color: var(--primary);
+}
 h4{
     color: var(--secondary);
     font-weight: 900;
@@ -21,6 +45,32 @@ h4{
 p{
     color: var(--font);
 }
+.event-btn{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.non-event-btn{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    background-color: var(--background);
+    box-shadow: 0 0 1px var(--primary),
+    0 0 4px var(--secondary),
+    0 0 8px var(--background);
+}
+.non-event-btn:hover{
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 1px var(--primary),
+    0 0 4px var(--primary),
+    0 0 8px var(--background);
+    color: var(--primary);
+}
 .tech_events{
     list-style: decimal;
     color: var(--secondary);
@@ -34,4 +84,9 @@ p{
     padding-inline-start: 10px;
     padding-block: 5px;
     border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+    .event_div{
+        width: 700px;
+    }
 }

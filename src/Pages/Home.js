@@ -33,7 +33,7 @@ function Home() {
         {/* <Navbar_custom/> */}
         <div className='d-flex front-page flex-column justify-content-center align-items-center'>
             <img src={logo} className='logo' />
-            <h1 className='text-center mb-3'>
+            <h2 className='text-center mb-3'>
                 <span className='diff_color'>TECHNO </span> 
                 <Typewriter
                     onInit={(typewriter) => {
@@ -42,8 +42,8 @@ function Home() {
                             .start();
                     }}
                 />
-            </h1>
-            <h4 className="sub-text mb-3">Feb 29 - Mar 1</h4>
+            </h2>
+            <h5 className="sub-text mb-3">Feb 29 - Mar 1</h5>
             <a href='#about' className='sub-text'><button className='explore_btn'>Explore</button></a>
         </div>
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
