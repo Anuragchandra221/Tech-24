@@ -70,7 +70,10 @@ function Event({data}) {
                                         {event.sub.map((sub, j)=>{
                                             return (
                                                 <div className='pl-3 my-3' key={j}>
-                                                    <h4 className='event_heading mb-3'>{sub.title}</h4>
+                                                    <div className='event_heading mb-3 d-flex justify-content-start align-items-center'>
+                                                        <h4 className='p-0 m-0'>{sub.title}</h4>
+                                                    </div>
+                                                    {/* <h4 className='event_heading mb-3'>{sub.title}</h4> */}
                                                     <p className='pl-3'>{sub.desc}</p>
                                                     {sub.day?<p className='pl-3'>Day - {sub.day}</p>:''}
                                                     {sub.time?<p className='pl-3'>Time - {sub.time}</p>:''}

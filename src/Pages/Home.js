@@ -13,7 +13,11 @@ import Typewriter from "typewriter-effect";
 
 function Home() {
     
-    
+    useEffect(()=>{
+        const windowHeight = window.innerHeight;
+        var ele = document.getElementsByClassName('front-page')[0]
+        ele.style.height = windowHeight + "px";
+    })
     
     
   return (
@@ -33,7 +37,7 @@ function Home() {
         {/* <Navbar_custom/> */}
         <div className='d-flex front-page flex-column justify-content-center align-items-center'>
             <img src={logo} className='logo' />
-            <h2 className='text-center mb-3'>
+            <h2 className='text-center mb-3 px-2 px-lg-0'>
                 <span className='diff_color'>TECHNO </span> 
                 <Typewriter
                     onInit={(typewriter) => {
