@@ -12,6 +12,9 @@
 }
 .event-btn{
     width: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 27px;
     border-radius: 50%;
     color: var(--secondary);
@@ -46,16 +49,19 @@ p{
     color: var(--font);
 }
 .event-btn{
-    position: absolute;
+    /* position: absolute;
     right: 10px;
-    top: 7px;
+    top: 7px; */
 }
 .non-event-btn{
-    position: absolute;
+    /* position: absolute;
     right: 10px;
-    top: 7px;
+    top: 7px; */
     width: 27px;
     height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     color: var(--secondary);
     border: 2px solid var(--secondary);
@@ -81,9 +87,12 @@ p{
                 0 0 4px var(--secondary),
                 0 0 8px var(--background);
     background-color: var(--background);
-    padding-inline-start: 10px;
+    padding-inline: 10px;
     padding-block: 5px;
     border-radius: 10px;
+}
+.event_heading>h3{
+    width: fit-content;
 }
 @media screen and (min-width: 768px) {
     .event_div{

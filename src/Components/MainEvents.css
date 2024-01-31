@@ -2,6 +2,7 @@
     width: 150px;
     border: 2px solid var(--primary);
     border-radius: 10px;
+    cursor: pointer;
 }
 .main_images:hover{
     transform: scale(1.1);

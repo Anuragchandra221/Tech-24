@@ -48,10 +48,12 @@ function Event({data}) {
             {data.technical.map((event, i)=>{
                 return (
                     <div className='my-4' style={{position: 'relative'}} key={i}>
-                        <h3 className='event_heading mb-3'>{event.title}</h3>
-                        <button className='event-btn' onClick={()=>hide(i)}>
-                        <i className="fa fa-arrow-up"></i>
-                        </button>
+                        <div className='event_heading mb-3 d-flex justify-content-between align-items-center'>
+                            <h3 className='p-0 m-0'>{event.title}</h3>
+                            <button className='event-btn' onClick={()=>hide(i)}>
+                                <i className="fa fa-arrow-up"></i>
+                            </button>
+                        </div>
                         <div className='event-div'>
                             <p className='pl-3'>{event.desc}</p>
                             {event.day?<p className='pl-3'>Day - {event.day}</p>:''}
@@ -99,10 +101,16 @@ function Event({data}) {
             {data.non.map((event, i)=>{
                 return (
                     <div className='my-4' style={{position: 'relative'}} key={i}>
-                        <h3 className='event_heading mb-3'>{event.title}</h3>
+                        <div className='event_heading mb-3 d-flex justify-content-between align-items-center'>
+                            <h3 className='p-0 m-0'>{event.title}</h3>
+                            <button className='non-event-btn' onClick={()=>hide_non(i)}>
+                                <i className="fa fa-arrow-up"></i>
+                            </button>
+                        </div>
+                        {/* <h3 className='event_heading mb-3'>{event.title}</h3>
                         <button className='non-event-btn' onClick={()=>hide_non(i)}>
                         <i className="fa fa-arrow-up"></i>
-                        </button>
+                        </button> */}
                         <div className='non-event-div'>
                             <p className='pl-3'>{event.desc}</p>
                             {event.day?<p className='pl-3'>Day - {event.day}</p>:''}

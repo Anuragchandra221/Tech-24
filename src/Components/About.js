@@ -4,7 +4,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 function About() {
   return (
-    <div id="about" className='d-flex flex-column align-items-center mt-5 mb-5 pt-5'>
+    <div id="about" className='d-flex flex-column align-items-center mt-3 pt-0 mt-lg-5 mb-3 mb-lg-5 pt-lg-5'>
         <AnimationOnScroll animateIn='animate__tada'>
         <h2 className='mb-3'>
             About Vidya
