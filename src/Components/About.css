@@ -1,5 +1,5 @@
 .about-text{
-    max-width: 90%;
+    max-width: 95%;
     line-height: 2em;
     color: var(--font);
 }
@@ -8,11 +8,17 @@ h3, h2{
     font-weight: 900;
     color: var(--secondary);
 }
+.about-image{
+    width: 95%;
+}
 #about{
     /* background-color: var(--primary); */
 }
 @media screen and (min-width:768px) {
  .about-text{
-    max-width: 80%;
+    max-width: 90%;
  }   
+ .about-image{
+    width: 90%;
+ }
 }

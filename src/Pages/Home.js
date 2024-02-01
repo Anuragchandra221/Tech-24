@@ -52,16 +52,16 @@ function Home() {
         </div>
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                 
-            <div className='mission-vission d-flex align-items-center justify-content-center mb-4 pb-lg-5 mb-lg-5'>
-                    <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-3 my-3 my-lg-0'>
+            <div className='mission-vission mt-3 mt-lg-0 d-flex align-items-center justify-content-center flex-wrap mb-4 pb-lg-5 mb-lg-5'>
+                    <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-md-3 my-3 my-lg-0'>
                         <h3 className='text-center'>OUR VISSION</h3>
                         <p className='mx-auto text-center m-0 para-vission'>Progress Through Education.</p>
                     </div>
-                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-3 my-3 my-lg-0'>
+                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-md-3 my-3 my-lg-0'>
                     <h3 className='text-center'>OUR MISSION</h3>
                     <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
                 </div>
-                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-lg-3 my-3 my-lg-0'>
+                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-md-3 my-3 my-lg-0'>
                     <h3 className='text-center'>OUR PLAN</h3>
                     <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
                 </div>
