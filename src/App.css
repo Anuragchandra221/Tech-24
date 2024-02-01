@@ -4,7 +4,7 @@ html{
 }
 body{
   background-color: #1c1c1c;
-  overflow-x: hidden;
+  /* overflow-x: unset; */
   /* backdrop-filter: blur(25px); */
   padding: 0;
   /* margin: auto; */
@@ -17,6 +17,9 @@ body{
   /* background-image: linear-gradient(to right, rgba(28, 28, 28,0.6), rgba(145, 10, 103,0.4)); */
   /* background-image: url('./assets/images/pattern_japanese-pattern-3_0.5_1_0-0_0_1__1c1c1c_8f0a65.png'); */
  
+}
+#root{
+  overflow-x: hidden;
 }
 .hidden{
   opacity: 0;
