@@ -7,7 +7,7 @@ function Navbar() {
     const [active, setActive] = useState('home')
     // const [isBlurred, setIsBlurred] = useContext(BlurContext)
   return (
-    <nav id="navbar" className="navbar navbar-expand-lg py-4 navbar-light " >
+    <nav id="navbar" className="navbar py-4 navbar-expand-lg navbar-light " >
         <a className="navbar-brand" id="navbar-brand" href="#">VYVIDH 24</a>
         <button className="navbar-toggler" style={{backgroundColor: 'var(--primary)', border: 'none', color: '#fff'}} type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

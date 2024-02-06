@@ -12,8 +12,10 @@ function Event_page(props) {
         <button onClick={props.onClose} className=' closing_btn d-flex justify-content-center align-items-center mr-3 px-3 py-2'>
           <FontAwesomeIcon icon={faClose} />
         </button>
-        <img src={props.src} alt="Event" className='col-12 col-md-6 mx-auto' />
-        <div className='d-flex flex-column col-12 col-md-6 justify-content-between m-0'>
+        <div className='col-12 col-lg-6'>
+          <img src={props.src} alt="Event" className='col-12 col-lg-6 mx-auto' />
+        </div>
+        <div className='d-flex flex-column col-12 col-lg-6 justify-content-between m-0'>
             <div className='pt-4'>
                 <h3 className='text-left event_title'>{props.title}</h3>
                 <p className='text-left'>{props.date}</p>
