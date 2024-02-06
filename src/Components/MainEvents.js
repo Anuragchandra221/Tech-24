@@ -18,13 +18,15 @@ function MainEvents() {
     "title": "Shutter Up",
     "src": ideathon,
     "date": "Feb 29",
-    "desc": "Vidya Academy of Science & Technology (VAST) is a state-of-the-art engineering college conforming to international standards. This model engineering college is approved by AICTE vide approval NO./06/ KER/ENGG/2002/91 dated 12/05/03 and affiliated to APJ Abdul Kalam Technological University. In few years VAST has evolved and achieved recognition as a notable School of Engineering"
+    "desc": "Vidya Academy of Science & Technology (VAST) is a state-of-the-art engineering college conforming to international standards. This model engineering college is approved by AICTE vide approval NO./06/ KER/ENGG/2002/91 dated 12/05/03 and affiliated to APJ Abdul Kalam Technological University. In few years VAST has evolved and achieved recognition as a notable School of Engineering",
+    "link": ""
   }
   const expo_des ={
     "title": "Project Expo",
     "src": expo,
     "date": "Feb 29",
-    "desc": "Technical feast for School students and also to show their talents at their early stages of studies!!! It is an opportunity for kids to find out their path in engineering field by knowing their own taste and to develop a basement of knowledge."
+    "desc": "Technical feast for School students and also to show their talents at their early stages of studies!!! It is an opportunity for kids to find out their path in engineering field by knowing their own taste and to develop a basement of knowledge.",
+    "link": "https://bit.ly/project_expo_24"
   }
   const [visible, setVisible] = useState(false)
   const [obj, setObj] = useState(null)
@@ -48,7 +50,7 @@ function MainEvents() {
         <img onClick={()=>show_events(expo_des)} className='main_images my-3 mx-3 my-lg-3 ' src={expo} />
         <img onClick={()=>show_events(expo_des)} className='main_images my-3 mx-3 my-lg-3 ' src={avishkar} />
       </div>
-      {visible && obj?<Event_page date={obj.date} title={obj.title} src={obj.src} description={obj.desc} onClose={onClose}/>:""}
+      {visible && obj?<Event_page date={obj.date} link={obj.link} title={obj.title} src={obj.src} description={obj.desc} onClose={onClose}/>:""}
     </div>
   )
 }

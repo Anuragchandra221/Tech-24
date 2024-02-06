@@ -22,7 +22,7 @@ function Event_page(props) {
                 <p className='text-left event_desc'>{props.description}</p>
             </div>
             <div className='ml-auto d-flex'>
-                <button className='close_btn d-flex justify-content-center align-items-center px-3 py-2'>Register</button>
+                <a href={props.link} target='__blank'><button className='close_btn d-flex justify-content-center align-items-center px-3 py-2'>Register</button></a>
             </div>
         </div>
       </div>
