@@ -94,6 +94,9 @@ p{
 .event_heading>h3{
     width: fit-content;
 }
+.event_desc{
+    line-height: 1.7em;
+}
 @media screen and (min-width: 768px) {
     .event_div{
         width: 700px;

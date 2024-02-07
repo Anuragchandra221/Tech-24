@@ -56,7 +56,7 @@ function Event({data}) {
                             </button>
                         </div>
                         <div className='event-div'>
-                            <p className='pl-3'>{event.desc}</p>
+                            <p className='pl-3 event_desc'>{event.desc}</p>
                             {event.day?<p className='pl-3'>Day - {event.day}</p>:''}
                             {event.time?<p className='pl-3'>Time - {event.time}</p>:''}
                             {event.fee?<p className='pl-3'>Fee - {event.fee}</p>:''}
@@ -75,7 +75,7 @@ function Event({data}) {
                                                         <h4 className='p-0 m-0'>{sub.title}</h4>
                                                     </div>
                                                     {/* <h4 className='event_heading mb-3'>{sub.title}</h4> */}
-                                                    <p className='pl-3'>{sub.desc}</p>
+                                                    <p className='pl-3 event_desc'>{sub.desc}</p>
                                                     {sub.day?<p className='pl-3'>Day - {sub.day}</p>:''}
                                                     {sub.time?<p className='pl-3'>Time - {sub.time}</p>:''}
                                                     {sub.fee?<p className='pl-3'>Fee - {sub.fee}</p>:''}
@@ -116,7 +116,7 @@ function Event({data}) {
                         <i className="fa fa-arrow-up"></i>
                         </button> */}
                         <div className='non-event-div'>
-                            <p className='pl-3'>{event.desc}</p>
+                            <p className='pl-3 event_desc'>{event.desc}</p>
                             {event.day?<p className='pl-3'>Day - {event.day}</p>:''}
                             {event.time?<p className='pl-3'>Time - {event.time}</p>:''}
                             {event.fee?<p className='pl-3'>Fee - {event.fee}</p>:''}
@@ -132,7 +132,7 @@ function Event({data}) {
                                             return (
                                                 <div className='pl-3 my-3' key={j}>
                                                     <h4 className='event_heading mb-3'>{sub.title}</h4>
-                                                    <p className='pl-3'>{sub.desc}</p>
+                                                    <p className='pl-3 event_desc'>{sub.desc}</p>
                                                     {sub.day?<p className='pl-3'>Day - {sub.day}</p>:''}
                                                     {sub.time?<p className='pl-3'>Time - {sub.time}</p>:''}
                                                     {sub.fee?<p className='pl-3'>Fee - {sub.fee}</p>:''}

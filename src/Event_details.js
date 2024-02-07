@@ -340,4 +340,139 @@ const eee = {
         }
     ]
 }
-export {cse, aiml, eee}
+
+const civil = {
+    "technical": [
+        {
+            "title": "AGIRA",
+            "desc": "The main event hosting by department of civil engineering is an Expo centered around the theme of sustainability and disaster management. This event serves as a platform to highlight groundbreaking initiatives and advancements in civil engineering that prioritize sustainability. It reminds us of significance of harmony among five elements earth, water, fire, wind and space to assure a happy and peaceful abode for the inhabitants of earth to make this place of supreme happiness.",
+            "venue": "Noth block courtyard",
+            "faculty": "Ms Chithira Ajeeth",
+            "student": "Arun T V (S8)"
+        },
+        {
+            "title": "PAVILLION",
+            "desc": "An exhibition showcasing the achievements and features of Civil Engineering Department.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 4:30 PM",
+            "venue": "Noth block courtyard",
+            "faculty": "Dr Anjali P Sasidharan",
+            "student": "Saranya V M (S8)"
+        },
+        {
+            "title": "SAHA 2024",
+            "desc": "An exhibition, presenting all disciplines of civil engineering which includes surveying, transportation, structural, geotechnical, water resources etc.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "NB 012",
+            "faculty": "Ms Ponsy Paul",
+            "student": "Philo Rose (S6)"
+        },
+        {
+            "title": "DESIGN WIZARD",
+            "desc": "A CADD drawing is provided for the participants and the one who complete the replica of given drawing first, meeting all the provided conditions will win the game.",
+            "date": "Feb 29",
+            "time": "10:30 AM",
+            "fee": "100",
+            "prize": "1000",
+            "venue": "CADD Lab",
+            "faculty": "Nirmala Krishnan",
+            "student": "Renjima Jojo (S6)"
+        },
+        {
+            "title": "GIRDER BUILDER",
+            "desc": "Girder models are made with given ice-cream sticks and glue. The maximum load bearing girder wins the game.",
+            "date": "Mar 1",
+            "time": "10:30 AM",
+            "fee": "70",
+            "prize": "1000",
+            "venue": "GE Lab",
+            "faculty": "Ms Payal Das",
+            "student": "Shine Jose (S6)"
+        },
+        {
+            "title": "CONCRETE CRUSH",
+            "desc": "Participants are given fixed amount of materials to cast a concrete block with their favourable mix ratios ,and strength checking is done after a week to select the winner.",
+            "date": "Feb 29",
+            "time": "2 PM",
+            "fee": "100",
+            "prize": "1000",
+            "venue": "MT Lab",
+            "faculty": "Ms Ardra P Nair",
+            "student": "Adithya K (S6)"
+        },
+        {
+            "title": "WORKSHOP",
+            "desc": "A free workshop on any software providing KTU activity points.",
+            "date": "Feb 29",
+            "time": "2:30 PM",
+            "venue": "CADD Lab",
+            "faculty": "Ms Seetha Pisharikkel",
+            "student": "Lakshmipriya K V (S6), Aneena Jhonson (S6)"
+        },
+        {
+            "title": "SEMINAR",
+            "desc": "A free seminar on any technical talk providing KTU activity points.",
+            "date": "Mar 1",
+            "time": "10:30 AM",
+            "venue": "NB 110",
+            "student": "Aleena C J (S6), Amrita Sathyan (S6)"
+        }
+    ],
+    "non": [
+        {
+            "title": "NEON FOOTBALL",
+            "desc": "This is 3s football game set within a dark room with neon lightings.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 4 PM",
+            "fee": "300",
+            "prize": "5000",
+            "venue": "NB 103",
+            "faculty": "Ms Roshini Vijay",
+            "student": "Lohith Manakkalath (S8)"
+        },
+        {
+            "title": "FEAR CHAMBER",
+            "desc": "A room setup with horrifying elements, along with treasure hunt.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 4 PM",
+            "fee": "30",
+            "venue": "NB 113",
+            "faculty": "Anu Maria Antony",
+            "student": "Ashish Krishna (S4), Krishnapriya (S4)"
+        },
+        {
+            "title": "PAINT BALL",
+            "desc": "Participants can shoot colour bullets with gun wearing all safety measures.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 4 PM",
+            "fee": "50",
+            "venue": "Norht Block Side",
+            "faculty": "Ms Gloria Anto",
+            "student": "Palijunath (S4)"
+        },
+        {
+            "title": "MOVIE TRIVIA",
+            "desc": "A trivia is organised based on themes of certain movies and series.",
+            "date": "Feb 29 & Mar 1",
+            "time": "2 PM - 4:30 PM",
+            "fee": "50",
+            "prize": "1000",
+            "faculty": "Mr Renjith R",
+            "student": "Bhuvan K S (S8)"
+        },
+        {
+            "title": "CASIO ROYALE",
+            "desc": "A bunch of small games to ensure maximum participation with minimal entry fee.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 PM - 4:30 PM",
+            "fee": "20",
+            "prize": "Certain Prizes",
+            "venue": "Noth Block Side",
+            "faculty": "Ms Anagha V A",
+            "student": "Amal Krishna K J (S8), Sreejith S (S8)"
+        },
+    ]
+}
+
+export {cse, aiml, eee, civil}
