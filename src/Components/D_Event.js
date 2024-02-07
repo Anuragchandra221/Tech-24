@@ -6,8 +6,11 @@ function D_Event(props) {
   return (
     <Link to={props.to} onClick={() => window.scrollTo(0, 0)}>
       <div className='flex my-2 flex-column align-items-center justify-content-center d_event ' >
-          <img className='department_images mx-3 mx-lg-3' src={props.src} />
-          <p className='mt-2 dep_name mx-3 mx-lg-3 text-center'>{props.dep}</p>
+        <div className='d-event-div  mx-3 mx-lg-3'>
+
+          <img className='department_images' src={props.src} />
+        </div>
+          <p className='mt-2 dep_name mx-auto text-center'>{props.dep}</p>
       </div>
     </Link>
   )

@@ -18,18 +18,18 @@ function Navbar() {
                     <a className=" nav-link nlink text-center" href="#" onClick={()=>setActive('home')} id="nlink" style={{cursor: 'pointer'}} >HOME <span className="sr-only">(current)</span></a>
                 </li>
                 
-                <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="main_events"?'active':''}`}>
-                    <a className="nav-link nlink text-center" href="/#main_events" id="nlink" onClick={()=>setActive('main_events')}>MAIN EVENTS</a>
-                </li>
                 <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="about"?'active':''}`}>
                     <a className="nav-link text-center" id="nlink" href="/#about" onClick={()=>setActive('about')}>ABOUT US</a>
+                </li>
+                <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="main_events"?'active':''}`}>
+                    <a className="nav-link nlink text-center" href="/#main_events" id="nlink" onClick={()=>setActive('main_events')}>MAIN EVENTS</a>
                 </li>
                 <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="department_events"?'active':''}`}>
                     <a className="nav-link text-center" href="#department_events" id="nlink" onClick={()=>setActive('department_events')}>DEPARTMENT EVENTS</a>
                 </li>
-                {/* <li className={`nav-item mx-3 d-flex align-items-center ${active=="gallery"?'active':''}`}>
-                    <a className="nav-link text-center" href="#" id="nlink" onClick={()=>setActive('gallery')}>GALLERY</a>
-                </li> */}
+                <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="gallery"?'active':''}`}>
+                    <a className="nav-link text-center" href="/gallery" id="nlink" onClick={()=>setActive('gallery')}>GALLERY</a>
+                </li>
                 {/* <li className={`nav-item mx-3 d-flex align-items-center ${active=="d_addiction"?'active':''}`}>
                     <a className="nav-link text-center" href="#" id="nlink" onClick={()=>setActive('d_addiction')}>D ADDICTION</a>
                 </li> */}

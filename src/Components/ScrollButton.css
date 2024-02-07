@@ -12,4 +12,10 @@
     border: 2px solid var(--primary);
     color: var(--secondary);
     font-size: larger;
+    cursor: pointer;
+}
+.scroll>button:hover{
+    box-shadow: 0 0 2px var(--primary),
+                0 0 5px var(--primary),
+                0 0 11px var(--primary);
 }

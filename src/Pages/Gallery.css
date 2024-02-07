@@ -1,0 +1,31 @@
+.imghr{
+    padding-top: 7em;
+}
+.image-gallery{
+    display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.image-gallery>li>img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.image-gallery>li {
+    height: 30vh;
+    flex-grow: 1;
+}
+
+.image-gallery>li>  img {
+      border-radius: 10px;
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+  @media  screen and (min-width: 768px) {
+    .image-gallery>li {
+        height: 40vh;
+        flex-grow: 1;
+    }
+    
+  }

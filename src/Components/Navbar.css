@@ -50,9 +50,9 @@ a:hover{
 @media screen and (min-width: 768px) {
     .active{
         background-color: var(--background);
-        box-shadow: 0 0 5px var(--primary),
-        0 0 20px var(--primary),
-        0 0 40px var(--primary);
+        box-shadow: 0 0 2px var(--primary),
+        0 0 6px var(--primary),
+        0 0 11px var(--primary);
         /* border-radius: 10px; */
     }
     #navbar{

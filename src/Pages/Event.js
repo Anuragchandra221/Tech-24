@@ -4,6 +4,7 @@ import Contact from '../Components/Contact'
 import "./Event.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown, faClose } from '@fortawesome/free-solid-svg-icons'
+import ScrollButton from '../Components/ScrollButton'
 
 function Event({data}) {
     // console.log(data.technical)
@@ -153,6 +154,7 @@ function Event({data}) {
                 )
             })}
         </div>
+        <ScrollButton/>
         <Contact/>
     </div>
   )

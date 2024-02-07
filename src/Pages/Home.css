@@ -87,13 +87,10 @@ h3, h2{
     transform: scale(1.1);
     transition: 0.5s;
     /* background-color: var(--primary); */
-    box-shadow: 0 0 10px var(--primary),
-                0 0 40px var(--primary),
-                0 0 80px var(--primary);
+    box-shadow: 0 0 2px var(--primary),
+                0 0 5px var(--primary),
+                0 0 11px var(--primary);
     color: var(--secondary);
-}
-.cube-container{
-  display: none;
 }
 @media screen and (min-width: 768px){
     .logo{

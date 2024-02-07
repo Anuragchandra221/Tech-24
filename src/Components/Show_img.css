@@ -1,0 +1,36 @@
+.show_img{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: var(--background);
+    /* overflow-x: hidden; */
+}
+.close_btn_img{
+    width:40px;
+    height: 40px;
+    background-color: var(--background);
+    color: var(--secondary);
+    border: 2px solid var(--primary);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.show_img>div{
+    width: 90%;
+    position: relative;
+    z-index: 2;
+    height: auto;
+}
+.show_img>div>img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 768px) {
+    .show_img>div{
+        width: auto;
+        position: relative;
+        z-index: 2;
+        height: 90%;
+    }
+}

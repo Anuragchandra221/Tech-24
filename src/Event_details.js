@@ -171,4 +171,173 @@ const cse = {
         }
     ]
 }
-export {cse}
+const aiml = {
+    "technical": [
+        {
+            "title": "Department Expo: EMMERZO",
+            "desc": "EMMERZO is an expo related to artificial intelligence and machine learning.",
+            "venue": "MB 007",
+            "faculty": "Anju K P",
+            "student": "Maria Derby"
+        },
+        {
+            "title": "CODE_MATRIX",
+            "desc": "CODE_MATRIX is a coding competitioin in which the participants are requested to code based on a given problem.",
+            "day": "Feb 29",
+            "time": "10 30 AM",
+            "fee": "50",
+            "venue": "Intelligent computing lab",
+            "prize": "3000",
+            "faculty": "Sreemol V C & Manjusha P D",
+            "student": "Amarnadh P B"
+        },
+        {
+            "title": "VIRTUAL_ESCAPE",
+            "desc": "VIRTAL_ESCAPE is a fun experience where the basic objective is to experience virtual reality.",
+            "day": "Feb 29 & Mar 1",
+            "time": "10 AM",
+            "fee": "50",
+            "venue": "MB 006",
+            "faculty": "Riya P D",
+            "student": "Arohan A R"
+        }
+    ],
+    "non": [
+        {
+            "title": "EFOOTBALL SHOWDOWN",
+            "desc": "EFOOTBALL SHOWDOWN is a efootball mobile game tournament.",
+            "day": "Feb 29",
+            "time": "10 AM",
+            "fee": "30",
+            "venue": "MB 107",
+            "prize": "800",
+            "faculty": "Riya P D",
+            "student": "Shyam Prakash K"
+        },
+        {
+            "title": "BATTLEFIELD MANIA",
+            "desc": "BATTLEFIELD MANIA is a BGMI mobile game tournament.",
+            "day": "Feb 29",
+            "time": "2 PM",
+            "fee": "160",
+            "venue": "MB 107",
+            "prize": "1600",
+            "faculty": "Manjusha P D",
+            "student": "Austin Wilson"
+        },
+        {
+            "title": "CLICK IT!",
+            "desc": "CLICK IT! is a photobooth to take pictures.",
+            "day": "Feb 29",
+            "time": "10 AM",
+            "fee": "20",
+            "venue": "Corridor infront of MB 106",
+            "faculty": "Anju K P",
+            "student": "Jasim Shadeej"
+        },
+        {
+            "title": "ARTFLORA",
+            "desc": "It is a fun zone for face painting and mehndi.",
+            "day": "Feb 29",
+            "time": "10 AM",
+            "fee": "20",
+            "venue": "MB 106",
+            "faculty": "Riya P D",
+            "student": "Punya P Madhu"
+        },
+        {
+            "title": "FUN UNLIMITED!",
+            "desc": "It is a fun zone with mini games.",
+            "day": "Feb 29 & Mar 1",
+            "time": "10 AM",
+            "fee": "10",
+            "venue": "MB 106",
+            "faculty": "Sreemol V C",
+            "student": "Athulya"
+        },
+    ]
+}
+const eee = {
+    "technical": [
+        {
+            "title": "EXPO ELECSPIRE",
+            "desc": "Main event includes 'Arc Attack 2.0' and 'Anime arcadia'",
+            "venue": "South block courtyard",
+            "faculty": "Rajesh S K",
+            "student": "Abhishek S Nair (S8)"
+        },
+        {
+            "title": "ARC ATTACK 2.0",
+            "desc": "Showcasing, working and explanation of high-power electrical equipment.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 3:30 PM",
+            "venue": "Entrance of south block poarch area",
+            "faculty": "Anooja V S",
+            "student": "Geno Panakkal (S8)"
+        },
+        {
+            "title": "EEE PAVILION",
+            "desc": "Projects and Still model Expo in collaboration with KSEB.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 3:30 PM",
+            "venue": "MB 008 & MB 009",
+            "faculty": "Priya k P",
+            "student": "Aldin Glennis (S6)"
+        },
+        {
+            "title": "MASTER MIND",
+            "desc": "Symposium on an Electrical subject with distinguished faculties and students from different colleges.",
+            "date": "Feb 24",
+            "time": "10 AM - 2:30 PM",
+            "fee": "550",
+            "venue": "EEE Seminar/Conference Hall (S 114)",
+            "prize": "6000",
+            "faculty": "Priya k P",
+            "student": "Aldin Glennis (S6)"
+        },
+        {
+            "title": "SNAP CIRCUIT",
+            "desc": "Circuit building competition. (Topic and circuit kit will be provided at the venue).",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 3:30 PM",
+            "fee": "20",
+            "venue": "MB 008",
+            "prize": "200",
+            "faculty": "Sheeja G",
+            "student": "Gautham M G (S4)"
+        }
+    ],
+    "non": [
+        {
+            "title": "ANIME ARCADIA",
+            "desc": "Showcasing of Japanese Anime characters with suitable background and properties, creating a visual treat for the viewers.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 3:30 PM",
+            "venue": "Entrance of South block poarch area",
+            "faculty": "Akhila R",
+            "student": "Aman P Prasad (S8)"
+        },
+        {
+            "title": "PSYCH CARNIVAL",
+            "desc": "Games filled with fun and challenges.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 3:30 PM",
+            "fee": "20",
+            "venue": "In front of ambulance parking (Near Nakshatra)",
+            "prize": "Gift",
+            "faculty": "Lasitha Mohandas",
+            "student": "Nikhil P H (S8)"
+        },
+        {
+            "title": "REFOCUS",
+            "desc": "Photography competition. Capture the best moments of ELECSPIRE.",
+            "date": "Feb 29 & Mar 1",
+            "time": "9:30 AM - 3:30 PM",
+            "fee": "20",
+            "prize": "300",
+            "faculty": "Praveesh V V",
+            "student": "Akshay T (S6)"
+        }
+    ]
+}
+export {cse, aiml, eee}
