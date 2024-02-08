@@ -475,4 +475,290 @@ const civil = {
     ]
 }
 
-export {cse, aiml, eee, civil}
+const me = {
+    "technical": [
+        {
+            "title": "DEPARTMENT EXPO: AGNICHAKRA 2024",
+            "desc": "Welcome to Agnichakra, the ultimate automobile expo that brings together the latest and most innovative vehicles from around the world. This expo is a celebration of the art, science, and engineering that goes into creating some of the most iconic and groundbreaking automobiles of our time. Whether you are a car enthusiast, a collector, or just someone who appreciates great design and engineering, Agnichakra has something for you. At Agnichakra, you will be able to experience firsthand the latest advancements in automotive technology. You will also be able to see some of the most luxurious and high-performance vehicles from top brands, as well as classic and vintage cars that have stood the test of time. But Agnichakra is not just about showcasing the latest and greatest automobiles. It is also a place for networking, education, and entertainment. You will have the opportunity to meet with industry experts and learn about the latest trends and innovations in the automotive industry. There will be live demonstrations, interactive exhibits, and entertainment for visitors of all ages.",
+            "venue": "Space between Decinial and Main Block",
+            "faculty": "Mr Renjith E R, Mr Akhil Venugopal",
+            "student": "Vishnu Jayaraj (S8), Adhithyan Anilkumar (S8)"
+        },
+        {
+            "title": "WORKSHOP",
+            "desc": "A period of discussion or practical work on a particular subject in which a group of people share their knowledge or experience.",
+            "venue": "ME Drawing Hall",
+            "day": "Feb 29",
+            "time": "9 AM - 1:30 PM",
+            "fee": "400",
+            "faculty": "Mr Alex Chacko C",
+            "student": "Adhithyan Sudhir (S8)"
+        },
+        {
+            "title": "EXOTIC CAR AND EXOTIC BIKE EXPO",
+            "desc": "It is based on the concept of congregating together the superbike owners to display their passion and possession. This year, ISF has spread its wings beyond just motorcycles and is now a full-fledged lifestyle automotive show with an added segment of lifestyle auto products, accessories and supercars.",
+            "venue": "Space between Decinial and Main block",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4:30 PM",
+            "fee": "40",
+            "faculty": "Dr Bhavin K Bharath",
+            "student": "Abhiram (S8)"
+        },
+        {
+            "title": "AUTO QUIZ",
+            "desc": "An Exciting Quiz Competition from the World ofAutomobile with Increasing Levels of Difficulty through Successive Stages and Unlimited Fun.",
+            "day": "Feb 29",
+            "time": "9 AM - 4:30 PM",
+            "venue": "SB 105",
+            "fee": "100",
+            "prize": "2000",
+            "faculty": "Mr Biju P V",
+            "student": "Athul Anoop Menon (S8)"
+        },
+        {
+            "title": "CAD MASTER",
+            "desc": "Competition in CAD Software in which the winner is awarded by means of quality of the Drawing objective given to them.",
+            "day": "Feb 29",
+            "time": "9 AM - 1 PM",
+            "venue": "ME CAD Lab",
+            "fee": "100",
+            "prize": "2000",
+            "faculty": "Mr Anil Paul",
+            "student": "E S Bharath Shanker (S8)"
+        },
+        {
+            "title": "TRACK RACING SIMULATOR",
+            "desc": "Provide everyone an experience on what it takes to be a professional racing driver through power of PC simulation.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "M 006 & M 007",
+            "fee": "100",
+            "prize": "1000",
+            "faculty": "Mr R Shankar",
+            "student": "Ebin Babu (S8)"
+        },
+        {
+            "title": "PIT SPOT EXPERIENCE",
+            "desc": "Provide everyone an experience on what it takes to be a professional pitstop technician.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "Basketball court",
+            "fee": "100",
+            "faculty": "Mr R Shankar",
+            "student": "Krishnadev Prabhu N S (S8)"
+        },
+    ],
+    "non": [
+        {
+            "title": "ANTI-DRUG CAMPAIGN",
+            "desc": "Programmed with EXCISE Department, Thrissur",
+            "venue": "Thrissur Round",
+            "date": "Feb 24",
+            "time": "3:30 PM"
+        },
+        {
+            "title": "INTER-VAST FOOTBALL TOURNAMENT",
+            "venue": "Squad Six, Thalakottukara",
+            "date": "Feb 25",
+            "time": "5 PM"
+        },
+        {
+            "title": "PHOTO CONTEST",
+            "desc": "Photography is a powerful medium of expression that can be used to communicate strong positive messages about a subject. This open and free photo competition seeks to inspire the creation and dissemination of such positive imagery, which conveys the humankind’s relation to it.",
+            "day": "Feb 29 and Mar 1",
+            "time": "10 AM - 5 PM",
+            "venue": "College Compound",
+            "fee": "100",
+            "prize": "1000",
+            "faculty": "Mr Renjith Raj",
+            "student": "Rishikesh (S8)"
+        },
+        {
+            "title": "FUN AND GAMES",
+            "desc": "Various Games Including Box Cricket And other Mini Games.",
+            "day": "Feb 29",
+            "time": "10 AM - 4 PM",
+            "venue": "Volleyball court, Staff Parking area, Nakshatra vanam",
+            "fee": "30",
+            "prize": "100",
+            "faculty": "Mr Anil Kumar",
+            "student": "Aswin V P (S8)"
+        },
+        {
+            "title": "BUGGY RIDE",
+            "desc": "The buggy ride is a sport in which you get the opportunity to drive a buggy on the track.",
+            "day": "Feb 29",
+            "time": "9:30 AM - 4 PM",
+            "venue": "Basketball Court",
+            "fee": "100",
+            "prize": "1000",
+            "faculty": "Mr Deepu Mohan",
+            "student": "Parth Menon (S8)"
+        },
+        {
+            "title": "PARK THE CAR",
+            "desc": "Driving Skills Alone don’t make you a skilled Driver. You need to have Parking Skills too! If you are confident in your Driving Skills, here is the place to prove it.",
+            "day": "Feb 29",
+            "time": "10 AM - 4 PM",
+            "venue": "Decinial Block Back Side",
+            "fee": "50",
+            "prize": "500",
+            "faculty": "Mr Arun Simon",
+            "student": "Aman Babu (S8)"
+        },
+        {
+            "title": "DRIFT TRIKE",
+            "desc": "Showcasing and experiencing the thrilling experience of drifting through an achievable and safe medium to masses.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "Basketball court",
+            "fee": "200",
+            "faculty": "Mr Vishnu Shaji",
+            "student": "Rishan P Mohamed (S8)"
+        },
+    ]
+}
+
+const ece = {
+    "technical": [
+        {
+            "title": "Dept Expo: Haulin Torque",
+            "desc": "An RC car presentation will feature detailed information, offering a comprehensive understanding of everything related to RC cars. Following that, there will be a showcase of RC car stunts and more. The expo will also include demonstrations of over 30+ RC vehicles.",
+            "day": "Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "Nakshatra vanam",
+            "faculty": "Ms Ashitha P R",
+            "student": "Sidhart (S8), Akshay Anto (S8)"
+        },
+        {
+            "title": "Botz",
+            "desc": "A captivating showcase of innovation, technology, and the boundless possibilities within the realm of robotics. This expo is a convergence of brilliant minds, cutting-edge creations, and the future of intelligent machines.",
+            "day": "Feb 29",
+            "time": "9 AM - 4 PM",
+            "faculty": "Ms Sagna L T",
+            "student": "Neethu K N (S8), Nandhana R Kumar (S8)"
+        },
+        {
+            "title": "Circuitrix",
+            "desc": "Circuitrix is an event designed to evaluate participants understanding of the basics of electronics and establish a foundation in this field. In teams of four, participants must collaboratively rectify a given faulty circuit within a specified time frame.",
+            "day": "Feb 29",
+            "time": "9 AM - 1 PM",
+            "venue": "Basic electronics lab",
+            "fee": "100",
+            "prize": "1500",
+            "faculty": "Ms Anju Varghese, Ms Shegi Prakash",
+            "student": "Sree lakshmi (S8), Saranya (S8)"
+        },
+        {
+            "title": "Ligarobotix",
+            "desc": "Engage in the Robotic Hackathon Challenge, where miniature robots demonstrate their capabilities by overcoming various obstacles, from rocky terrains to navigating through mud, water, and steep inclines.",
+            "day": "Feb 29",
+            "time": "9 AM - 4 PM",
+            "venue": "SB Courtyard, SB 004",
+            "fee": "200",
+            "prize": "15000",
+            "faculty": "Ms Remya K R, Ms Savithri K M",
+            "student": "Vanisha (S8), Akhila (S8)"
+        },
+        {
+            "title": "Drone Storm",
+            "desc": "Step into the future at our exhibition, showcasing a spectacular array of drones and cutting-edge UAVs. Immerse yourself in the marvels of technology as these airborne wonders take flight, demonstrating unparalleled maneuverability and performing breathtaking aerial stunts.",
+            "day": "Feb 29",
+            "time": "9 AM - 4 PM",
+            "venue": "SB Courtyard",
+            "faculty": "Ms Jeeva K A",
+            "student": "Angelon (S8), Vijith P V (S8)"
+        },
+        {
+            "title": "PC Building",
+            "desc": "Experience a full PC teardown showcasing all components inside computers, coupled with a PC building simulator. Engage in a competition where participants can showcase their skills by building a PC using the simulator.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "fee": "50",
+            "prize": "1000",
+            "venue": "SB 003",
+            "faculty": "Ms Fetsy K Francis, Ms Baby K A",
+            "student": "Hemanth (S8), Sooraj (S8)"
+        },
+        {
+            "title": "RSL (Robotic Super League)",
+            "desc": "Participate in a robot football competition where custom-made robots, controllable by humans, showcase their skills on the field.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "fee": "50",
+            "prize": "1500",
+            "venue": "SB Courtyard",
+            "faculty": "Mr Santumon S D",
+            "student": "Athul Chandra (S8), Sreehari (S8)"
+        },
+        {
+            "title": "Electronic Cave",
+            "desc": "Explore mesmerizing electronics projects inspired by the ambient light found within a cave.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "SB 005",
+            "faculty": "Mr Aswathy E R",
+            "student": "Melvin (S8), Ebin (S8)"
+        },
+        {
+            "title": "Space Exhibition",
+            "desc": "Embark on a journey through the marvels of outer space at our exhibition, delving into how humans explored space over time. Explore still models of rockets, satellites, spacecraft, and space exploration equipment, providing insights into our incredible ventures beyond earth.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "South Block Corridor",
+            "faculty": "Ms Vandana M",
+            "student": "Sakthi (S8), Mrudhula (S8)"
+        },
+        {
+            "title": "Evolution of Electronics",
+            "desc": "This exhibition traces the evolution of electronics and showcases how mankind has made significant changes through remarkable inventions. Witness models of vacuum tubes, transistors, modern integrated circuits, and many more innovations that have shaped the world of electronics.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "South Block Corridor",
+            "faculty": "Ms Divya Unni",
+            "student": "Manjusha (S8), Nishitha (S8)"
+        },
+        {
+            "title": "Department Pavilion",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "venue": "South Block Corridor",
+            "faculty": "Ms Reshmi K Rajan, Ms Viji Vinodan",
+            "student": "Rahul (S8), Antony (S8)"
+        },
+        {
+            "title": "PCB Design",
+            "desc": "Participate in a single-day workshop where you can learn to create circuit boards and master the layout techniques to bring your electronic inventions to life. This workshop covers the basic concepts of PCB designing and building",
+            "time": "9 AM - 4 PM",
+            "fee": "150",
+            "venue": "Common Computer Lab",
+            "faculty": "Mr Anil M, Mr Sourav Babu",
+            "student": "Melvin (S8), Jesto (S8)"
+        },
+    ],
+    "non": [
+        {
+            "title": "Escape Harry",
+            "desc": "Embark on an exciting and spooky adventure filled with wit and puzzle-solving challenges. Navigate through a maze teeming with spookiness in every corner, aiming to discover the final puzzle piece.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "fee": "50",
+            "prize": "500",
+            "faculty": "Ms Lakshmi U, Ms Priyanka Vijakumar",
+            "student": "Krishnapriya (S8), Sethu (S8)"
+        },
+        {
+            "title": "Treasure Hunt",
+            "desc": "Engage in a thrilling treasure hunt adventure where teams follow clues through various stages of tasks related to theoretical electronics. The team that successfully completes the challenges in the least amount of time emerges as the winners.",
+            "day": "Feb 29 & Mar 1",
+            "time": "9 AM - 4 PM",
+            "fee": "150",
+            "prize": "1000",
+            "venue": "Basic Electronics Lab",
+            "faculty": "Ms Hima Anna Thomas",
+            "student": "Femi (S8), Bhanupriya (S8)"
+        }
+    ]
+}
+
+export {cse, aiml, eee, civil, me, ece} 

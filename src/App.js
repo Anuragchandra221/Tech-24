@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import Home from './Pages/Home';
 import "animate.css/animate.min.css";
-import { aiml, civil, cse, eee } from './Event_details';
+import { aiml, civil, cse, ece, eee, me } from './Event_details';
 import Event from './Pages/Event';
 import { createContext, useEffect, useState } from 'react';
 import Gallery from './Pages/Gallery';
@@ -23,6 +23,8 @@ function App() {
           <Route path="/aiml" element={<Event data={aiml}/>} />
           <Route path="/eee" element={<Event data={eee}/>} />
           <Route path="/civil" element={<Event data={civil}/>} />
+          <Route path="/me" element={<Event data={me}/>} />
+          <Route path="/ece" element={<Event data={ece}/>} />
         </Routes>
     </BrowserRouter>
   );

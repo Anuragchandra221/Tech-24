@@ -5,6 +5,7 @@
 }
 .d-event-div{
     width: 150px;
+    height: 150px;
     background-color: #000;
     border-radius: 10px;
 }
@@ -31,7 +32,7 @@
     
     .d-event-div{
         width: 200px;
-        height: 300px;
+        height: 200px;
     }
 }
 @media screen and (min-width: 768px) {

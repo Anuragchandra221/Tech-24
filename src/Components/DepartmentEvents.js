@@ -26,10 +26,10 @@ function DepartmentEvents() {
           <D_Event src={emmerzo} dep="ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING" to="/aiml" />
           <D_Event src={vastava} dep="CIVIL ENGINEERING" to="/civil" />
           <D_Event src={respawn} dep="COMPUTER SCIENCE AND ENGINEERING" to="/cse" />
-          <D_Event src={haulin} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" />
+          <D_Event src={haulin} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" to="/ece" />
           <D_Event src={elecspire} dep="ELECTRICAL AND ELECTRONICS ENGINEERING" to="/eee" />
           <D_Event src={adwaitha} dep="MASTER OF COMPUTER APPLICATIONS" />
-          <D_Event src={agnichakra} dep="MECHANICAL ENGINEERING" />
+          <D_Event src={agnichakra} dep="MECHANICAL ENGINEERING" to="/me" />
         </div>
     </div>
   )
