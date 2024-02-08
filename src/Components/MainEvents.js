@@ -55,7 +55,7 @@ function MainEvents() {
     "date": "Feb 29",
     "desc": "Avishkar Project Expo(A place of creativity and responsibility of an engineer gets exhibited.",
     "topic": "'Youth empowerment via enterprise, education and sustainable technology.'",
-    "link": "https://bit.ly/project_expo_24",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdO_s_PnaA_TDH6hUCA96VOGsJ2_wHo6XDdSg2xyNO-tWN4mQ/viewform",
     "contact": [
       "Arun Xavier (AP, EEE) - 9895658014",
       "Akhil Venugopal (AP, ME) - 7736248532",
