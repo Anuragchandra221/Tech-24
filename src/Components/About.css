@@ -10,6 +10,7 @@ h3, h2{
 }
 .about-image{
     width: 95%;
+    border-radius: 10px;
 }
 #about{
     /* background-color: var(--primary); */
