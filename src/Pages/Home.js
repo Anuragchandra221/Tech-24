@@ -38,7 +38,7 @@ function Home() {
             <div className='d-flex front-page flex-column justify-content-center my-auto align-items-center mx-lg-5'>
                 <Navbar/>
                 <img src={logo} className='logo' />
-                <h2 className='text-center mb-3 px-2 px-lg-0'>
+                <h2 className='text-center mb-3 px-2 px-lg-0' style={{fontWeight: '800'}}>
                     <span className='diff_color'>TECHNO </span> 
                     <Typewriter
                         onInit={(typewriter) => {

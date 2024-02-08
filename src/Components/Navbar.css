@@ -37,7 +37,8 @@ a:hover{
     0 0 8px var(--primary); */
     
     /* border-radius: 10px; */
-    border-bottom: 2px solid var(--primary);
+    width: fit-content;
+    border: 2px solid var(--primary);
 }
 .active{
     color: var(--primary);
@@ -51,6 +52,9 @@ a:hover{
                 0 0 40px var(--primary),
                 0 0 80px var(--primary); */
 }
+.navbar{
+    background-color: var(--background);
+}
 @media screen and (min-width: 768px) {
     .active{
         /* background-color: var(--background);
@@ -58,9 +62,14 @@ a:hover{
         0 0 6px var(--primary),
         0 0 11px var(--primary); */
         /* border-radius: 10px; */
+        border: none;
+        border-bottom: 2px solid var(--primary);
+    }
+    .navbar{
+        background-color: transparent;
     }
     #navbar{
-        background-color: inherit;
+        /* background-color: inherit; */
         border-radius: 15px;
     }
     #navbar-brand{
