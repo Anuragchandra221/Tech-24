@@ -63,10 +63,10 @@ function Home() {
                     <h3 className='text-center'>OUR MISSION</h3>
                     <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
                 </div>
-                <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-md-3 my-3 my-lg-0'>
+                {/* <div className='vission-box d-flex flex-column justify-content-center mx-0 mx-md-3 my-3 my-lg-0'>
                     <h3 className='text-center'>OUR PLAN</h3>
                     <p className='mx-auto text-center m-0 para-vission'>To seek, strive for and scale greater heights of quality education.</p>
-                </div>
+                </div> */}
             </div>
             </AnimationOnScroll>
         <About/>
