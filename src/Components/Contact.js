@@ -11,9 +11,7 @@ function Contact() {
         {/* <div className='footer-background'></div> */}
         <div className='px-3 contact mx-auto d-flex justify-content-between mx-4 align-items-start'>
             <div className='d-flex flex-column'>
-                <h3 className='mb-3'>
-                    VYVIDH 24
-                </h3>
+            <a className="navbar-brand mb-2" id="navbar-brand" style={{fontFamily:"autumn", fontWeight: "900", opacity: "0.9 "}} href="#">Vyvidh <span style={{color: "var(--secondary)"}}>24</span></a>
                 <p>VIDYA ACADEMY OF SCIENCE AND TECHNOLOGY</p>
             </div>
             <div className='d-flex flex-column mt-3 mt-lg-0'>
