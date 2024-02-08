@@ -20,6 +20,13 @@ function Event_page(props) {
                 <h3 className='text-left event_title'>{props.title}</h3>
                 <p className='text-left'>{props.date}</p>
                 <p className='text-left event_desc'>{props.description}</p>
+                {console.log(props.contact)}
+                <p className='text-left event_desc'>Contact </p>
+                {
+                  props.contact.map((con)=>{
+                    return <p className='text-left mb-1'>{con}</p>
+                  })
+                }
             </div>
             <div className='ml-auto d-flex'>
                 <a href={props.link} target='__blank'><button className='close_btn d-flex justify-content-center align-items-center px-3 py-2'>Register</button></a>

@@ -20,7 +20,7 @@ const cse = {
         },
         {
             "title": "DEV-SHOWDOWN",
-            "desc": "Multi-tier technical Event.",
+            "desc": "Gear up for the ultimate clash of technical brilliance at DevShowdown – a dynamic team event that blends innovation with competition. ",
             "day": "Feb 29 & Mar 1",
             "time": "9:15 Onwards",
             "fee": "300",
@@ -31,7 +31,7 @@ const cse = {
             "sub": [
                 {
                     "title": "CODEX",
-                    "desc": "Competitive Programming.",
+                    "desc": "In the realm of CodeX, brilliance prevails, and only the sharpest minds emerge victorious. Are you the coding maestro?",
                     "day": "Feb 29",
                     "time": "9:15 Onwards",
                     "venue": "Systems Lab",
@@ -40,7 +40,7 @@ const cse = {
                 },
                 {
                     "title": "DARKCODE",
-                    "desc": "Code blindly.",
+                    "desc": "Step into the mystery of DarkCode, where participants code blind, the code being typed remains concealed until the competition concludes.",
                     "day": "Feb 29",
                     "time": "9:15 Onwards",
                     "venue": "Project Lab",
@@ -49,7 +49,7 @@ const cse = {
                 },
                 {
                     "title": "REFIX",
-                    "desc": "Assemble a PC component.",
+                    "desc": "Unleash your hardware mastery by reassembling a simple PC Component within a given time frame! So let the reassembly begin!",
                     "day": "Feb 29",
                     "time": "9:15 Onwards",
                     "venue": "NB 213",
@@ -58,7 +58,7 @@ const cse = {
                 },
                 {
                     "title": "QWIZZY",
-                    "desc": "Technical Quiz round.",
+                    "desc": "Embark on a journey through three levels of mind-bending questions, from basics to brilliance in the ultimate tech quiz challenge.",
                     "day": "Feb 29",
                     "time": "9:15 Onwards",
                     "venue": "NB 212",
@@ -67,7 +67,7 @@ const cse = {
                 },
                 {
                     "title": "TYPRACE",
-                    "desc": "Speed Typing.",
+                    "desc": "Race against time in TypRace, where swift fingers battle for victory. Can your typing speed outpace the ticking clock? Gear up for the ultimate typing showdown! ",
                     "day": "Feb 29",
                     "time": "9:15 Onwards",
                     "venue": "Systems Lab",
@@ -76,7 +76,7 @@ const cse = {
                 },
                 {
                     "title": "D_BUG",
-                    "desc": "Debug the given code.",
+                    "desc": "Dive into the world of debugging, racing against the clock to untangle complex code and unveil hidden errors.",
                     "day": "Feb 29",
                     "time": "9:15 Onwards",
                     "venue": "Project Lab",
