@@ -75,7 +75,7 @@ function MainEvents() {
     setObj(null)
   }
   return (
-    <div className='d-flex flex-column' id="main_events" >
+    <div className='d-flex flex-column pt-lg-4' id="main_events" >
       <h2 className='text-center mb-3'>Main Events</h2>
 
       <div className='d-flex  justify-content-center p-0 p-lg-3 px-lg-5 flex-wrap'>

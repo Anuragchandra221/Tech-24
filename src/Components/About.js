@@ -6,11 +6,11 @@ import vast from "../assets/images/vast.jpeg"
 function About() {
   return (
     <div id="about" className='d-flex flex-column align-items-center mt-3 pt-0 mt-lg-5 mb-3 mb-lg-5 pt-lg-5'>
-        <AnimationOnScroll animateIn='animate__tada'>
+        {/* <AnimationOnScroll animateIn='animate__tada'> */}
         <h2 className='mb-3'>
             About Vidya
         </h2>
-        </AnimationOnScroll>
+        {/* </AnimationOnScroll> */}
       <div className='row justify-content-center align-items-center p-0 p-3 px-lg-5'>
         <div className='col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end'>
           <img src={vast} className='about-image'/>
