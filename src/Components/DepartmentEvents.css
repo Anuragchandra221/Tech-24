@@ -19,6 +19,8 @@
               0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
               0 3.5px 6px hsla(0, 0%, 0%, 0.09);
     border-radius: 10px;
+    background-color: var(--background);
+    z-index: 1;
 }
 .dep_name{
     width: 150px;

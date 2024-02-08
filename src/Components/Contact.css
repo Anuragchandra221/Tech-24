@@ -17,7 +17,8 @@
               0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
               0 3.5px 6px hsla(0, 0%, 0%, 0.09);
     border-radius: 15px;
-    background-color: var(--background);
+    background-color: rgba(28,28,28,0.5);
+    position: relative;
 }
 a{
     text-decoration: none;
@@ -42,7 +43,7 @@ p{
         flex-direction: row;
         width: 100%;
         /* z-index: 2; */
-        background-color: var(--background);
+        /* background-color: var(--background); */
         
     }
     #contact{

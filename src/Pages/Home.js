@@ -33,22 +33,24 @@ function Home() {
                 <div className="s6"></div>
             </div>
         </div>
-        <Navbar/>
         {/* <Navbar_custom/> */}
-        <div className='d-flex front-page flex-column justify-content-center align-items-center'>
-            <img src={logo} className='logo' />
-            <h2 className='text-center mb-3 px-2 px-lg-0'>
-                <span className='diff_color'>TECHNO </span> 
-                <Typewriter
-                    onInit={(typewriter) => {
-                        typewriter
-                            .typeString("CULTURAL FEST")
-                            .start();
-                    }}
-                />
-            </h2>
-            <h5 className="sub-text mb-3">Feb 29 - Mar 1</h5>
-            <a href='#about' className='sub-text'><button className='explore_btn'>Explore</button></a>
+        <div style={{width: '100vw', height:'100vh'}} className='d-flex'>
+            <div className='d-flex front-page flex-column justify-content-center my-auto align-items-center mx-lg-5'>
+                <Navbar/>
+                <img src={logo} className='logo' />
+                <h2 className='text-center mb-3 px-2 px-lg-0'>
+                    <span className='diff_color'>TECHNO </span> 
+                    <Typewriter
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString("CULTURAL FEST")
+                                .start();
+                        }}
+                    />
+                </h2>
+                <h5 className="sub-text mb-3">Feb 29 - Mar 1</h5>
+                <a href='#about' className='sub-text'><button className='explore_btn'>Explore</button></a>
+            </div>
         </div>
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                 

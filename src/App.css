@@ -4,6 +4,7 @@ html{
 }
 body{
   background-color: #1c1c1c;
+  
   /* overflow-x: unset; */
   /* backdrop-filter: blur(25px); */
   padding: 0;

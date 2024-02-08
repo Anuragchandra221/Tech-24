@@ -8,6 +8,7 @@ import "./Contact.css"
 function Contact() {
   return (
     <div id="contact" className=' mx-auto py-4 px-3 mb-3 d-flex flex-column justify-content-between'>
+        {/* <div className='footer-background'></div> */}
         <div className='px-3 contact mx-auto d-flex justify-content-between mx-4 align-items-start'>
             <div className='d-flex flex-column'>
                 <h3 className='mb-3'>
