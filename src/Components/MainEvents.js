@@ -18,7 +18,7 @@ function MainEvents() {
     "title": "Ideathon",
     "src": ideathon,
     "date": "Feb 29",
-    "desc": "Vidya Academy of Science & Technology (VAST) is a state-of-the-art engineering college conforming to international standards. This model engineering college is approved by AICTE vide approval NO./06/ KER/ENGG/2002/91 dated 12/05/03 and affiliated to APJ Abdul Kalam Technological University. In few years VAST has evolved and achieved recognition as a notable School of Engineering",
+    "desc": "",
     "link": "https://forms.gle/8kSAkToZSwuiagu88",
     "contact": [
       "Salkala K S (AP, MCA) - 9747552526",
@@ -32,9 +32,8 @@ function MainEvents() {
     "desc": "Technical feast for School students and also to show their talents at their early stages of studies!!! It is an opportunity for kids to find out their path in engineering field by knowing their own taste and to develop a basement of knowledge.",
     "link": "https://forms.gle/pyn2Qf37AnHZMdmS6",
     "contact": [
-      "Arun Xavier (AP, EEE) - 9895658014",
-      "Akhil Venugopal (AP, ME) - 7736248532",
-      "Albin Shju (ECE) - 8383443275"
+      "Rachana Sajeev (AP, AS) - 9895202403",
+      "Adwaidh Sanil (AIML) - 9544515805"
     ]
   }
 
@@ -42,7 +41,7 @@ function MainEvents() {
     "title": "Expremiere",
     "src": expremiere,
     "date": "Feb 29",
-    "desc": "",
+    "desc": "Paper Presentation on a given topic.",
     "link": "https://forms.gle/E7hPvFPtMFosuGAq7",
     "contact": [
       "Jensy Babu (AP, CSE) - 7025363200",
@@ -54,11 +53,13 @@ function MainEvents() {
     "title": "Avishkar",
     "src": avishkar,
     "date": "Feb 29",
-    "desc": "",
+    "desc": "Avishkar Project Expo(A place of creativity and responsibility of an engineer gets exhibited.",
+    "topic": "'Youth empowerment via enterprise, education and sustainable technology.'",
     "link": "https://bit.ly/project_expo_24",
     "contact": [
-      "Rachana Sajeev (AP, AS) - 9895202403",
-      "Adwaidh Sanil (AIML) - 9544515805"
+      "Arun Xavier (AP, EEE) - 9895658014",
+      "Akhil Venugopal (AP, ME) - 7736248532",
+      "Albin Shju (ECE) - 8383443275"
     ]
   }
 
@@ -84,7 +85,7 @@ function MainEvents() {
         <img onClick={()=>show_events(expremiere_des)} className='main_images my-3 mx-3 my-lg-3 ' src={expremiere} />
         <img onClick={()=>show_events(expo_des)} className='main_images my-3 mx-3 my-lg-3 ' src={expo} />
       </div>
-      {visible && obj?<Event_page date={obj.date} link={obj.link} title={obj.title} src={obj.src} description={obj.desc} onClose={onClose} contact={obj.contact}/>:""}
+      {visible && obj?<Event_page date={obj.date} link={obj.link} topic={obj.topic?obj.topic:null} title={obj.title} src={obj.src} description={obj.desc} onClose={onClose} contact={obj.contact}/>:""}
     </div>
   )
 }

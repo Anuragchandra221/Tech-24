@@ -20,6 +20,7 @@ function Event_page(props) {
                 <h3 className='text-left event_title'>{props.title}</h3>
                 <p className='text-left'>{props.date}</p>
                 <p className='text-left event_desc'>{props.description}</p>
+                <p className='text-left event_desc' style={{fontWeight: '900'}}>{props.topic?`Topic - ${props.topic}`:''}</p>
                 {console.log(props.contact)}
                 <p className='text-left event_desc'>Contact </p>
                 {
