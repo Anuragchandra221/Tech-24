@@ -28,7 +28,7 @@ function DepartmentEvents() {
           <D_Event src={respawn} dep="COMPUTER SCIENCE AND ENGINEERING" to="/cse" />
           <D_Event src={haulin} dep="ELECTRONICS AND COMMUNICATION ENGINEERING" to="/ece" />
           <D_Event src={elecspire} dep="ELECTRICAL AND ELECTRONICS ENGINEERING" to="/eee" />
-          <D_Event src={adwaitha} dep="MASTER OF COMPUTER APPLICATIONS" />
+          <D_Event src={adwaitha} dep="MASTER OF COMPUTER APPLICATIONS" to="/mca" />
           <D_Event src={agnichakra} dep="MECHANICAL ENGINEERING" to="/me" />
         </div>
     </div>

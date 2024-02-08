@@ -761,4 +761,105 @@ const ece = {
     ]
 }
 
-export {cse, aiml, eee, civil, me, ece} 
+const mca = {
+    "technical": [
+        {
+            "title": "Department Expo: Cyber Security Based Expo",
+            "desc": "Cyber Security Related Expo, Mehendi Stall and fun stalls in the corridor.",
+            "venue": "Main Block Ground Floor Classroom",
+            "faculty": "Mr Manesh D",
+            "student": "Aswin Manoj"
+        },
+        {
+            "title": "Speed Typing",
+            "desc": "Completing a give subject within a specified time frame with minimized errors.",
+            "day": "Feb 29",
+            "time": "10 AM",
+            "venue": "MCA Lab",
+            "fee": "50",
+            "prize": "500",
+            "faculty": "Ms Sumitha V S",
+            "student": "Sneha C J"
+        },
+        {
+            "title": "Web Designing Challenge",
+            "desc": "Crafting a visually appealing and functional website within a defined time frame, ensuring seamless user experience while minimizing design errors for a polished and engaging online presence.",
+            "day": "Feb 29",
+            "time": "1:30 PM",
+            "venue": "MCA Lab",
+            "fee": "50",
+            "prize": "500",
+            "faculty": "Ms Sumitha V S",
+            "student": "Sreelakshmi R"
+        },
+        {
+            "title": "Code Jigsaw Puzzle",
+            "desc": "Solving a programming challenge by assembling code components within a specified time frame with minimized errors.",
+            "day": "Mar 1",
+            "time": "11 AM",
+            "venue": "MCA Lab",
+            "fee": "50",
+            "prize": "500",
+            "faculty": "Ms Sumitha V S",
+            "student": "Jissy Anna Chacko"
+        },
+        {
+            "title": "Blind Coding",
+            "desc": "An intense typing challenge, participants in Blind Coding unleash their programming expertise with screens close, typing with precision and minimizing errors.",
+            "day": "Mar 1",
+            "time": "1:30 PM",
+            "venue": "MCA Lab",
+            "fee": "50",
+            "prize": "500",
+            "faculty": "Ms Sumitha V S",
+            "student": "Ajay Krishnalal"
+        }
+
+    ],
+    "non": [
+        {
+            "title": "PS5 Gaming",
+            "desc": "Navigating virtual worlds and conquering gaming challenges on the PlayStation 4.",
+            "day": "Feb 29",
+            "time": "10 AM",
+            "venue": "Main Block Classroom",
+            "faculty": "Mr Sajay K R",
+            "student": "Sachin P Raj, Don P D"
+        },
+        {
+            "title": "Treasure Hunt",
+            "desc": "Join us for an epic adventure that promises excitement, camaraderie. Teams of adventurers must consist of 4 members. Expect the unexpected as you unravel QR Code.",
+            "day": "Mar 1",
+            "time": "10 AM",
+            "fee": "120",
+            "prize": "1500",
+            "venue": "South Block",
+            "faculty": "Ms Salkala K S",
+            "student": "Rajeev Nair"
+        },
+        {
+            "title": "RC Mania and Racing Challenge",
+            "desc": "Experience the thrill of RC Mania and Racing Challenge as enthusiasts from around the globe compete in high-speed, precision-driven races.",
+            "day": "Feb 29 & Mar 1",
+            "time": "10 AM",
+            "fee": "20",
+            "prize": "200",
+            "venue": "Main Block Classroom",
+            "faculty": "Mr Dijesh P",
+            "student": "Rahul Dev, Ankit Baby, Abhijit"
+        },
+        {
+            "title": "Efootball Mobile Game",
+            "desc": "Experience the excitement of football on the go with our mobile-based game and earn rewards in coins to unlock new features and enhance your gameplay in PES Mobile.",
+            "day": "Feb 29 & Mar 1",
+            "time": "10 AM",
+            "fee": "40",
+            "prize": "500",
+            "venue": "Main Block Classroom",
+            "faculty": "Mr Sajay K R",
+            "student": "Ankit Baby, Sooraj"
+        }
+    ]
+}
+
+export {cse, aiml, eee, civil, me, ece, mca} 
