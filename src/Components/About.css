@@ -1,6 +1,7 @@
 .about-text{
     max-width: 95%;
     line-height: 2em;
+    word-spacing: 0.1em;
     color: var(--font);
 }
 h3, h2{

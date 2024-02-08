@@ -5,6 +5,7 @@
     top: 0;
     background-color: var(--background);
     /* overflow-x: hidden; */
+    z-index: 2;
 }
 .close_btn_img{
     width:40px;

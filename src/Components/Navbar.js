@@ -8,13 +8,13 @@ function Navbar() {
     // const [isBlurred, setIsBlurred] = useContext(BlurContext)
   return (
     <nav id="navbar" className="navbar py-4 py-lg-2 navbar-expand-lg navbar-light " >
-        <a className="navbar-brand" id="navbar-brand" href="#">VYVIDH 24</a>
+        <a className="navbar-brand" id="navbar-brand" style={{fontFamily:"autumn", fontWeight: "900", opacity: "0.9 "}} href="#">Vyvidh <span style={{color: "var(--secondary)"}}>24</span></a>
         <button className="navbar-toggler" style={{backgroundColor: 'var(--primary)', border: 'none', color: '#fff'}} type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul className="navbar-nav mt-2 mt-lg-0">
-                <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="home"?'active':''}`}>
+                <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="home"?'active':''}`}> 
                     <a className=" nav-link nlink text-center" href="/" onClick={()=>setActive('home')} id="nlink" style={{cursor: 'pointer'}} >HOME <span className="sr-only">(current)</span></a>
                 </li>
                 

@@ -28,7 +28,7 @@ body{
   transform: translateX(-100%);
 }
 :root {
-  --primary: #30c5e0;
+  --primary: #0D6BA6;
   --primary-light: #965481;
   --secondary: #fff;
   --background: #1c1c1c;
@@ -41,4 +41,8 @@ body{
 @font-face {
   font-family: syne;
   src: url(./assets//fonts//Syne-ExtraBold.ttf);
+}
+@font-face {
+  font-family: autumn;
+  src: url(./assets/fonts/stefan-stoychev-autoprompro-blackitarounded.otf);
 }

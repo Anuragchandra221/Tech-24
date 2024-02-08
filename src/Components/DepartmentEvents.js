@@ -13,7 +13,7 @@ function DepartmentEvents() {
   return (
     <div id="department_events" className='pt-5 pb-5 mt-5'>
         <h2 className='text-center mb-4'>Department Events</h2>
-        <div className='d-flex justify-content-around flex-wrap px-0 px-lg-4 mt-5 mb-3' style={{rowGap:'15px', color: 'var(--secondary'}}>
+        <div className='d-flex justify-content-around flex-wrap px-0 px-lg-4 mt-5 mb-5' style={{rowGap:'15px', color: 'var(--secondary'}}>
             <div className='dep_txt p-3'>AIML</div>
             <div className='dep_txt p-3'>CE</div>
             <div className='dep_txt p-3'>CSE</div>
@@ -22,7 +22,7 @@ function DepartmentEvents() {
             <div className='dep_txt p-3'>MCA</div>
             <div className='dep_txt p-3'>ME</div>
         </div>
-        <div className='d-flex justify-content-center mt-4 p-0 flex-wrap mt-4'>
+        <div className='d-flex justify-content-center mt-4 p-0 px-lg-3 flex-wrap mt-4'>
           <D_Event src={emmerzo} dep="ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING" to="/aiml" />
           <D_Event src={vastava} dep="CIVIL ENGINEERING" to="/civil" />
           <D_Event src={respawn} dep="COMPUTER SCIENCE AND ENGINEERING" to="/cse" />
