@@ -14,21 +14,21 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul className="navbar-nav mt-2 mt-lg-0">
-                <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="home"?'active':''}`}> 
-                    <a className=" nav-link nlink text-center" href="/" onClick={()=>setActive('home')} id="nlink" style={{cursor: 'pointer'}} >HOME <span className="sr-only">(current)</span></a>
+                <li className={`nav-item mx-3 d-flex justify-content-center align-items-center mx-auto ${active=="home"?'active':''}`}> 
+                    <a className=" nav-link nlink text-center  p-2 p-0" href="/" onClick={()=>setActive('home')} id="nlink" style={{cursor: 'pointer'}} >HOME <span className="sr-only">(current)</span></a>
                 </li>
                 
                 <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="about"?'active':''}`}>
-                    <a className="nav-link text-center" id="nlink" href="/#about" onClick={()=>setActive('about')}>ABOUT US</a>
+                    <a className="nav-link text-center p-2 p-0" id="nlink" href="/#about" onClick={()=>setActive('about')}>ABOUT US</a>
                 </li>
                 <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="main_events"?'active':''}`}>
-                    <a className="nav-link nlink text-center" href="/#main_events" id="nlink" onClick={()=>setActive('main_events')}>MAIN EVENTS</a>
+                    <a className="nav-link nlink text-center p-2 p-0" href="/#main_events" id="nlink" onClick={()=>setActive('main_events')}>MAIN EVENTS</a>
                 </li>
                 <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="department_events"?'active':''}`}>
-                    <a className="nav-link text-center" href="#department_events" id="nlink" onClick={()=>setActive('department_events')}>DEPARTMENT EVENTS</a>
+                    <a className="nav-link text-center p-2 p-0" href="#department_events" id="nlink" onClick={()=>setActive('department_events')}>DEPARTMENT EVENTS</a>
                 </li>
                 <li className={`nav-item mx-3 d-flex justify-content-center align-items-center ${active=="gallery"?'active':''}`}>
-                    <a className="nav-link text-center" href="/gallery" id="nlink" onClick={()=>setActive('gallery')}>GALLERY</a>
+                    <a className="nav-link text-center p-2 p-0" href="/gallery" id="nlink" onClick={()=>setActive('gallery')}>GALLERY</a>
                 </li>
                 {/* <li className={`nav-item mx-3 d-flex align-items-center ${active=="d_addiction"?'active':''}`}>
                     <a className="nav-link text-center" href="#" id="nlink" onClick={()=>setActive('d_addiction')}>D ADDICTION</a>
@@ -37,7 +37,7 @@ function Navbar() {
                     <a className="nav-link text-center" href="#" id="nlink" onClick={()=>setActive('collector')}>COLLECTOR MESSAGE</a>
                 </li> */}
                 <li className={`nav-item ml-3 d-flex justify-content-center align-items-center ${active=="contact"?'active':''}`}>
-                    <a className="nav-link text-center" href="#contact" id="nlink" onClick={()=>setActive('contact')}>CONTACT</a>
+                    <a className="nav-link text-center p-2 p-0" href="#contact" id="nlink" onClick={()=>setActive('contact')}>CONTACT</a>
                 </li>
             </ul>
         </div>

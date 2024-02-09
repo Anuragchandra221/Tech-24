@@ -16,6 +16,8 @@ a:hover{
     color: var(--secondary);
     font-weight: 600;
     cursor: pointer;
+    margin-inline: auto;
+    /* padding: 2px; */
 }
 #nlink:hover{
     color: var(--primary);
