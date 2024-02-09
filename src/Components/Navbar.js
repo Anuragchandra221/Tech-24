@@ -36,6 +36,9 @@ function Navbar() {
                 {/* <li className={`nav-item mx-3 d-flex align-items-center ${active=="collector"?'active':''}`}>
                     <a className="nav-link text-center" href="#" id="nlink" onClick={()=>setActive('collector')}>COLLECTOR MESSAGE</a>
                 </li> */}
+                <li className={`nav-item ml-3 d-flex justify-content-center align-items-center ${active=="collector"?'active':''}`}>
+                    <a className="nav-link text-center p-2 p-0" href="#contact" id="nlink" onClick={()=>setActive('collector')}>COLLECTOR MESSAGE</a>
+                </li>
                 <li className={`nav-item ml-3 d-flex justify-content-center align-items-center ${active=="contact"?'active':''}`}>
                     <a className="nav-link text-center p-2 p-0" href="#contact" id="nlink" onClick={()=>setActive('contact')}>CONTACT</a>
                 </li>

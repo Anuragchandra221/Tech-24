@@ -9,6 +9,7 @@ import MainEvents from '../Components/MainEvents'
 import ScrollButton from '../Components/ScrollButton'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Typewriter from "typewriter-effect";
+import Collector from '../Components/Collector'
 
 
 function Home() {
@@ -73,6 +74,7 @@ function Home() {
 
         <MainEvents/>
         <DepartmentEvents/>
+        <Collector/>
         <Contact/>
         <ScrollButton/>
     </div>
