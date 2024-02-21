@@ -1,0 +1,77 @@
+.daddiction{
+    width: 95%;
+}
+.text, .ddates{
+    line-height: 2em;
+    word-spacing: 0.1em;
+    color: var(--font);
+    width: 95%;
+}
+.d-btn{
+    /* width: 12em; */
+    border-radius: 15px;
+    height: 3em;
+    /* border: 2px solid var(--primary); */
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%,  
+              100%, 0.075),
+              /* shadow ring 👇 */
+              0 0 0 1px hsla(0, 0%, 0%, 0.05),
+              /* multiple soft shadows 👇 */
+              0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+              0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+              0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+    border-radius: 15px;
+    background-color: rgba(28,28,28,0.5);
+    width: 95%;
+    border: 2px solid var(--primary);
+    color: var(--secondary);
+    cursor: pointer;
+}
+.d-div{
+    flex-direction: column;
+}
+.d-img{
+    width: 95%;
+}
+.ddates{
+    flex-direction: column;
+}
+.ddates>p{
+    border-bottom: 2px solid var(--font); 
+    /* width: fit-content; */
+    padding-bottom: 13px;
+}
+.d-btna{
+    width: 100%;
+}
+@media screen and (min-width: 576px) {
+    .ddates{
+        flex-direction: column;
+    }
+    .ddates>p{
+        /* border: none; */
+    }
+}
+@media screen and (min-width: 768px) {
+    .daddiction{
+        width: 90%;
+    }
+    .text, .ddates, .d-btn{
+        width: 80%;
+    }
+    .ddates{
+        flex-direction: row;
+        padding-bottom: 0px;
+        /* border: none; */
+    }
+    .ddates>p{
+        border: none;
+    }
+    .d-img{
+        width: 80%;
+    }
+    .d-div{
+        column-gap: 13px;
+        flex-direction: row;
+    }
+}
