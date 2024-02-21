@@ -18,7 +18,7 @@ function MainEvents() {
     "title": "Ideathon",
     "src": ideathon,
     "date": "Feb 29",
-    "desc": "",
+    "desc": "Ideathon is a brainstoriming event where participants from diverse backgrounds and interests to come up with innovative ideas to solve a complex specific real world problem.",
     "link": "https://forms.gle/8kSAkToZSwuiagu88",
     "contact": [
       "Salkala K S (AP, MCA) - 9747552526",
