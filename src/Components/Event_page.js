@@ -30,7 +30,7 @@ function Event_page(props) {
                 }
             </div>
             <div className='ml-auto d-flex mt-3'>
-                <a href={props.link} target='__blank'><button className='close_btn d-flex justify-content-center align-items-center px-3 py-2'>Register</button></a>
+                <a target='__blank'><button className='close_btn d-flex justify-content-center align-items-center px-3 py-2' style={{opacity: '0.6', cursor: 'not-allowed'}}>Register</button></a>
             </div>
         </div>
       </div>

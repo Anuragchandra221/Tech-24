@@ -21,7 +21,7 @@ function Daddiction() {
                         Anusha: 6238006540<br/> Mathew: 7025305955
                     </p>
                 </div>
-                <a href='https://forms.gle/B2WVptqgTAxTrS138'  className='d-btna'  target='_blank'><button  className='d-btn'>Register Now</button></a>
+                <a style={{opacity: '0.6', cursor: 'not-allowed'}}  className='d-btna'  target='_blank'><button  className='d-btn'>Register Now</button></a>
             </div>
         </div>
     </div>
